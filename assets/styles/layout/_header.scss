@@ -1,0 +1,194 @@
+header {
+    background: $orange-color;
+    margin-bottom: size(-2);
+    @include paddingY(size(30),size(10));
+    @include x-large-screen {
+        @include paddingY(size(52), size(10));
+    }
+    
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .logo {
+            width: size(80);
+            height: size(35);
+            object-fit: contain;
+            @include min-medium-screen {
+                width: size(120);
+                height: size(50);
+            }
+            @include x-large-screen {
+                width: size(180);
+                height: size(80);
+            }
+        }
+        
+        .burger-menu {
+            min-width: size(28);
+            min-height: size(20);
+            padding: 0;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            
+            &:focus {
+                outline: none !important;
+            }
+            
+            span {
+                display: block;
+                min-width: size(28);
+                min-height: size(2);
+                margin-bottom: size(5);
+                position: relative;
+                z-index: 1;
+                
+                &:after, &:before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: $white-color;
+                    opacity: .99;
+                    transition: background-color 600ms;
+                }
+                
+                &:nth-of-type(even) {
+                    &:before {
+                        transform-origin: right;
+                        transform: scaleX(0) translateZ(0);
+                        transition: transform .6s cubic-bezier(.165, .84, .44, 1);
+                    }
+                    
+                    &:after {
+                        transform-origin: left;
+                        transform: scaleX(1) translateZ(0);
+                        transition: transform .6s cubic-bezier(.165, .84, .44, 1) .2s;
+                    }
+                }
+                
+                &:before {
+                    transform-origin: right;
+                    transform: scaleX(1) translateZ(0);
+                    transition: transform .6s cubic-bezier(.165, .84, .44, 1) .2s;
+                }
+                
+                &:after {
+                    transform-origin: left;
+                    transform: scaleX(0) translateZ(0);
+                    transition: transform .6s cubic-bezier(.165, .84, .44, 1);
+                }
+                
+                
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            
+            &:hover {
+                span {
+                    
+                    &:nth-of-type(even) {
+                        &:before {
+                            transform: scaleX(1) translateZ(0);
+                            transition: transform .6s cubic-bezier(.165, .84, .44, 1) .2s;
+                        }
+                        
+                        &:after {
+                            transform: scaleX(0) translateZ(0);
+                            transition: transform .6s cubic-bezier(.165, .84, .44, 1);
+                        }
+                    }
+                    
+                    &:before {
+                        transform: scaleX(0) translateZ(0);
+                        transition: transform .6s cubic-bezier(.165, .84, .44, 1);
+                    }
+                    
+                    &:after {
+                        transform: scaleX(1) translateZ(0);
+                        transition: transform .6s cubic-bezier(.165, .84, .44, 1) .2s;
+                    }
+                    
+                }
+            }
+            
+            &.active {
+                display: none;
+            }
+        }
+        
+        .links {
+            width: size(320);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            right: size(-320);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: $semi-gray-color;
+            transition: all 400ms ease-in-out;
+            padding-top: size(130);
+            z-index: 10;
+            
+            .small-link {
+                color: $gray-color;
+                overflow: hidden;
+                
+                &:not(:last-child) {
+                    margin-bottom: size(20);
+                }
+                
+                span {
+                    position: relative;
+                    transition: transform 0.3s ease-in-out;
+                    display: block;
+                    
+                    &:before {
+                        position: absolute;
+                        top: 100%;
+                        content: attr(data-hover);
+                        transform: translate3d(0, 0, 0);
+                    }
+                }
+                
+                &:hover {
+                    span {
+                        transform: translateY(-100%);
+                        color: $orange-color;
+                        
+                    }
+                }
+                
+            }
+            
+            &.active {
+                right: 0;
+            }
+            
+            .cross {
+                min-width: size(20);
+                min-height: size(15);
+                position: absolute;
+                top: 8%;
+                left: 50%;
+                transform: translateX(-50%);
+                transition: all 400ms ease-in-out;
+                cursor: pointer;
+                display: none;
+                
+                &.active {
+                    display: block;
+                }
+            }
+            
+        }
+        
+    }
+}
+

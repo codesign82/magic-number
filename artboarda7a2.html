@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link href="assets/styles/style.css" rel="stylesheet">
+  <title>Artboard 22222222222</title>
+</head>
+<body>
+  <!-- test -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <img alt="Logo" class="logo" src="assets/images/logo.png">
+        <button class="burger-menu" id="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        
+        <!--    links-->
+        <div class="links" id="links">
+          <svg class="cross" height="20" id="cross" viewBox="0 0 17 18" width="28" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <g>
+                <path
+                  d="M8.438 11.41c-.44.444-.866.876-1.296 1.306-1.374 1.376-2.747 2.75-4.123 4.12a1.666 1.666 0 0 1-1.868.365 1.663 1.663 0 0 1-.998-1.587c.014-.445.185-.826.5-1.143 1.77-1.768 3.54-3.537 5.308-5.306.035-.034.068-.071.11-.117-.033-.038-.063-.078-.097-.11L.666 3.628C.15 3.114.006 2.386.296 1.734A1.67 1.67 0 0 1 1.894.75c.445.02.823.196 1.137.51C4.798 3.032 6.57 4.8 8.34 6.569c.03.03.063.06.107.102.046-.042.089-.082.131-.124 1.767-1.765 3.53-3.531 5.296-5.294.67-.668 1.716-.675 2.373-.023.666.66.667 1.712-.007 2.386a4555.805 4555.805 0 0 1-5.293 5.295c-.04.04-.09.065-.148.106.061.067.096.11.134.147l5.295 5.296c.676.676.69 1.722.034 2.386-.664.669-1.718.66-2.399-.019L8.557 11.52c-.031-.03-.065-.06-.12-.11"
+                  fill="#333333"></path>
+              </g>
+            </g>
+          </svg>
+          <a class="small-link" href="#"><span data-hover="link one">link one</span></a>
+          <a class="small-link" href="#"><span data-hover="link two">link two</span></a>
+          <a class="small-link" href="#"><span data-hover="link three">link three</span></a>
+          <a class="small-link" href="#"><span data-hover="link four">link four</span></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="page-wrapper">
+    <section class="step firstStep active" id="step-1">
+      <div class="container">
+        <div class="business-buyAbility">
+          <h1 class="headline-1">undertalestand and improve the buyability of your business</h1>
+          <p class="paragraph paragraph-1">
+            Do you own a business that isn’t living up to its potential? Are you feeling frustrated
+            by your company’s lack of growth, profit, or value creation? Is your business a
+            valuable asset that you can harvest to achieve your purpose and live your ideal life?
+          </p>
+          <p class="paragraph paragraph-2">
+            Welcome to the Business Buyability Assessment!
+          </p>
+          <p class="paragraph paragraph-3">
+            By answering 40+1 questions, you will get a clear picture of the Six Factors of
+            Buyability
+          </p>
+          <div class="image-wrapper">
+            <img alt="gear" src="assets/images/gear.png">
+          </div>
+          <p class="paragraph paragraph-4">
+            After completing this 10-minute questionnaire, you will get your Buyability Score
+            and a detailed report with suggested next steps so that you can take immediate
+            action towards improving the buyability of your business.
+          </p>
+        </div>
+        <div class="business-email">
+          <div class="data">
+            <input class="has-placeholder eso-email" placeholder="EOS E-mail address" type="text">
+            <div class="error-message headline-3">Please Fill This Filed</div>
+            <div class="text-wrapper">
+              <div class="checkmark"></div>
+              <p class="paragraph">Subscribe Traction Equity blog</p>
+            </div>
+          </div>
+          <button class="btn btn-medium begin-btn">
+            start
+            <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <g>
+                  <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                </g>
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="step-wrapper">
+      <div class="container">
+        <div class="phases-and-steps">
+          <div class="phases">
+            <div class="number active">1</div>
+            <div class="number number-2">2
+              <div class="border-top"></div>
+            </div>
+          </div>
+          <div class="steps">
+            <div class="step secondStep active" id="step-2">
+              <div class="question-and-evaluation">
+                <div class="loading-wrapper" id="loading">
+                  <div class="sp sp-circle"></div>
+                </div>
+                <div class="question">
+                  <h2 class="headline-2">Questionnaire <span id="qusCounter">1</span>/<span class="quesLength"></span></h2>
+                  <h1 class="headline-1 ques-title"></h1>
+                  <p class="paragraph ques-body"></p>
+                  <div class="buttons">
+                    <a class="btn btn-small prev-ques" href="#">Back</a>
+                    <a class="btn btn-medium next-ques" href="#">
+                      Next
+                      <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                          <g>
+                            <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="evaluation">
+                  <div class="evaluation-number">
+                    <div class="fill"></div>
+                    <div class="circle" data-number=5>5</div>
+                    <div class="fill"></div>
+                    <div class="circle" data-number=4>4</div>
+                    <div class="fill"></div>
+                    <div class="circle" data-number=3>3</div>
+                    <div class="fill"></div>
+                    <div class="circle" data-number=2>2</div>
+                    <div class="fill"></div>
+                    <div class="circle" data-number=1>1</div>
+                  </div>
+                  <div class="text">
+                    <h2 class="headline-2 strong">strong</h2>
+                    <h2 class="headline-2 weak">weak</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="step thirdStep" id="step-3">
+              <div class="result">
+                <h2 class="headline-2">Results</h2>
+                <h1 class="headline-1">Organizational Checkup results</h1>
+                <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>
+                <div class="totalScore center">
+                  <h1 class="headline-1">Total Score</h1>
+                  <div class="circle">75%</div>
+                </div>
+                <div class="viewRecommendation center">
+                  <h1 class="headline-1">View Recommendation</h1>
+                </div>
+                <div class="tabsWrapper" id="tabs">
+                  <div class="tabNav">
+                    <a class="tabLink is-active" href="#"><span>PERSONAL VISIONER</span></a>
+                    <a class="tabLink" href="#"><span>MANAGEMENT BLUEPRINT</span></a>
+                    <a class="tabLink" href="#"><span>GROWTH POTENTIATOR</span></a>
+                    <a class="tabLink" href="#"><span>PROFIT OPTIMIZER</span></a>
+                    <a class="tabLink" href="#"><span>GROOMING STATUS</span></a>
+                    <a class="tabLink" href="#"><span>TRANSACTION SAVVY</span></a>
+                  </div>
+                  <div class="tabContent is-active">
+                    <h2 class="headline-2">Results</h2>
+                    <h1 class="headline-1">Your Buyability Assessment Results</h1>
+                    <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>
+                    <p class="paragraph">Thank you for completing your Buyability Assessment. See your results below. Aim for achieving 90% strength in each category to reach optimum results.</p>
+                    <h3 class="headline-3">Personal Visioner</h3>
+                    <div class="gearPercent">
+                      <div class="gear"></div>
+                      <div class="results">
+                        <h2 class="headline-2">Your personal vision is <span>61%</span> strong. You can improve it using the following tools and opportunities.</h2>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Value and Growth Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Magic Number Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <div class="tabContent">
+                    <h2 class="headline-2">Results</h2>
+                    <h1 class="headline-1">Your Buyability Assessment Results</h1>
+                    <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>
+                    <p class="paragraph">Thank you for completing your Buyability Assessment. See your results below. Aim for achieving 90% strength in each category to reach optimum results.</p>
+                    <h3 class="headline-3">Personal Visioner</h3>
+                    <div class="gearPercent">
+                      <div class="gear"></div>
+                      <div class="results">
+                        <h2 class="headline-2">Your personal vision is <span>61%</span> strong. You can improve it using the following tools and opportunities.</h2>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Value and Growth Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Magic Number Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <div class="tabContent">
+                    <h2 class="headline-2">Results</h2>
+                    <h1 class="headline-1">Your Buyability Assessment Results</h1>
+                    <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>
+                    <p class="paragraph">Thank you for completing your Buyability Assessment. See your results below. Aim for achieving 90% strength in each category to reach optimum results.</p>
+                    <h3 class="headline-3">Personal Visioner</h3>
+                    <div class="gearPercent">
+                      <div class="gear"></div>
+                      <div class="results">
+                        <h2 class="headline-2">Your personal vision is <span>61%</span> strong. You can improve it using the following tools and opportunities.</h2>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Value and Growth Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Magic Number Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <div class="tabContent">
+                    <h2 class="headline-2">Results</h2>
+                    <h1 class="headline-1">Your Buyability Assessment Results</h1>
+                    <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>
+                    <p class="paragraph">Thank you for completing your Buyability Assessment. See your results below. Aim for achieving 90% strength in each category to reach optimum results.</p>
+                    <h3 class="headline-3">Personal Visioner</h3>
+                    <div class="gearPercent">
+                      <div class="gear"></div>
+                      <div class="results">
+                        <h2 class="headline-2">Your personal vision is <span>61%</span> strong. You can improve it using the following tools and opportunities.</h2>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Value and Growth Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Magic Number Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <div class="tabContent">
+                    <h2 class="headline-2">Results</h2>
+                    <h1 class="headline-1">Your Buyability Assessment Results</h1>
+                    <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>
+                    <p class="paragraph">Thank you for completing your Buyability Assessment. See your results below. Aim for achieving 90% strength in each category to reach optimum results.</p>
+                    <h3 class="headline-3">Personal Visioner</h3>
+                    <div class="gearPercent">
+                      <div class="gear"></div>
+                      <div class="results">
+                        <h2 class="headline-2">Your personal vision is <span>61%</span> strong. You can improve it using the following tools and opportunities.</h2>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Value and Growth Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Magic Number Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <div class="tabContent">
+                    <h2 class="headline-2">Results</h2>
+                    <h1 class="headline-1">Your Buyability Assessment Results</h1>
+                    <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>
+                    <p class="paragraph">Thank you for completing your Buyability Assessment. See your results below. Aim for achieving 90% strength in each category to reach optimum results.</p>
+                    <h3 class="headline-3">Personal Visioner</h3>
+                    <div class="gearPercent">
+                      <div class="gear"></div>
+                      <div class="results">
+                        <h2 class="headline-2">Your personal vision is <span>61%</span> strong. You can improve it using the following tools and opportunities.</h2>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Value and Growth Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Use the Magic Number Calculator
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                        <a class="btn btn-medium" href="#">Book a Personal Visioner Session
+                          <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                              <g>
+                                <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+                <a class="btn btn-small backToStep2" href="#">Back</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- region Save Code -->
+    
+    <!--    <section class="check-up check-up2 active" id="step-2">-->
+    <!--      <div class="container">-->
+    <!--        <div class="steps">-->
+    <!--          <div class="phases">-->
+    <!--            <div class="number active border-down">1-->
+    <!--              &lt;!&ndash;              <div class="border-down">&ndash;&gt;-->
+    <!--              &lt;!&ndash;                <img src="images/Slice_4.png" alt="">&ndash;&gt;-->
+    <!--              &lt;!&ndash;              </div>&ndash;&gt;-->
+    <!--            </div>-->
+    <!--            <div class="number">2</div>-->
+    <!--            <div class="number">3</div>-->
+    <!--          </div>-->
+    <!--          &lt;!&ndash;          step one&ndash;&gt;-->
+    <!--          <div class="question-and-evaluation">-->
+    <!--            <div class="question">-->
+    <!--              <h2 class="headline-2">Questionnaire <span id="qusCounter">1</span>/<span class="quesLength"></span></h2>-->
+    <!--              <h1 class="headline-1 ques-title"></h1>-->
+    <!--              <p class="paragraph ques-body"></p>-->
+    <!--              <div class="buttons">-->
+    <!--                <a class="btn btn-small prev-ques" href="#">Back</a>-->
+    <!--                <a class="btn btn-medium next-ques" href="#">-->
+    <!--                  Next-->
+    <!--                  <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">-->
+    <!--                    <g>-->
+    <!--                      <g>-->
+    <!--                        <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>-->
+    <!--                      </g>-->
+    <!--                    </g>-->
+    <!--                  </svg>-->
+    <!--                </a>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--            <div class="evaluation">-->
+    <!--              <div class="evaluation-number">-->
+    <!--                <div class="circle" data-number=5>5</div>-->
+    <!--                <div class="fill"></div>-->
+    <!--                <div class="circle" data-number=4>4</div>-->
+    <!--                <div class="fill"></div>-->
+    <!--                <div class="circle" data-number=3>3</div>-->
+    <!--                <div class="fill"></div>-->
+    <!--                <div class="circle" data-number=2>2</div>-->
+    <!--                <div class="fill"></div>-->
+    <!--                <div class="circle" data-number=1>1</div>-->
+    <!--              </div>-->
+    <!--              <div class="text">-->
+    <!--                <h2 class="headline-2 strong">strong</h2>-->
+    <!--                <h2 class="headline-2 weak">weak</h2>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>-->
+    <!--    <section class="check-up check-up3" id="step-3">-->
+    <!--      <div class="container">-->
+    <!--        <div class="steps">-->
+    <!--          <div class="phases">-->
+    <!--            <div class="number">1</div>-->
+    <!--            <div class="number active">2</div>-->
+    <!--            <div class="number">3</div>-->
+    <!--          </div>-->
+    <!--          &lt;!&ndash;   step two&ndash;&gt;-->
+    <!--          <div class="info">-->
+    <!--            <h2 class="headline-2">Additional info</h2>-->
+    <!--            <h1 class="headline-1">You are almost done!</h1>-->
+    <!--            <p class="paragraph text">where should we send your Organizational Checkup results? please enter your name and e-mail address-->
+    <!--            </p>-->
+    <!--            <div class="row">-->
+    <!--              <div class="col-12 col-sm-6">-->
+    <!--                <input id="name" class="data has-placeholder" placeholder="First name" type="text">-->
+    <!--                <div class="error-message headline-3">Please Fill This Filed</div>-->
+    <!--              </div>-->
+    <!--              <div class="col-12 col-sm-6">-->
+    <!--                <input id="lastName" class="data has-placeholder" placeholder="Last name" type="text">-->
+    <!--                <div class="error-message headline-3">Please Fill This Filed</div>-->
+    <!--              </div>-->
+    <!--              <div class="col-12 col-sm-6">-->
+    <!--                <input id="companyName" class="data has-placeholder" placeholder="Company name" type="text">-->
+    <!--                <div class="error-message headline-3">Please Fill This Filed</div>-->
+    <!--              </div>-->
+    <!--              <div class="col-12 col-sm-6">-->
+    <!--                <input class="data has-placeholder" id="email-address" placeholder="E-mail address" type="text">-->
+    <!--                <div class="error-message headline-3">Please Fill This Filed</div>-->
+    <!--              </div>-->
+    <!--              <div class="col-12">-->
+    <!--                <div class="text-wrapper checkbox-one">-->
+    <!--                  <div class="checkmark"></div>-->
+    <!--                  <p class="paragraph">Subscribe Traction Equity blog</p>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--              <div class="col-12 col-sm-6">-->
+    <!--                <div class="text-wrapper">-->
+    <!--                  <div class="checkmark"></div>-->
+    <!--                  <p class="paragraph">Are you working with an implementer?</p>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--              <div class="col-12 col-sm-6">-->
+    <!--                <input class="data has-placeholder eso-email" disabled placeholder="EOS E-mail address" type="text">-->
+    <!--                <div class="error-message headline-3">Please Fill This Filed</div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--            <div class="buttons">-->
+    <!--              <a class="btn btn-small back-to-check2" href="#">Back</a>-->
+    <!--              <a class="btn btn-medium" href="#" id="get-result">-->
+    <!--                Get my results-->
+    <!--                <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">-->
+    <!--                  <g>-->
+    <!--                    <g>-->
+    <!--                      <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>-->
+    <!--                    </g>-->
+    <!--                  </g>-->
+    <!--                </svg>-->
+    <!--              </a>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>-->
+    <!--    <section class="check-up check-up4" id="step-4">-->
+    <!--      <div class="container">-->
+    <!--        <div class="steps">-->
+    <!--          <div class="phases">-->
+    <!--            <div class="number">1</div>-->
+    <!--            <div class="number">2</div>-->
+    <!--            <div class="number active border-down">3-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--          &lt;!&ndash;   step three&ndash;&gt;-->
+    <!--          <div class="result">-->
+    <!--            <h2 class="headline-2">Results</h2>-->
+    <!--            <h1 class="headline-1">Organizational Checkup results</h1>-->
+    <!--            <p class="paragraph text"><span>john Doe |  </span> john.doe@gmail.com</p>-->
+    <!--            <div class="score">-->
+    <!--              <h2 class="headline-2">Current total score</h2>-->
+    <!--              <div class="charts">-->
+    <!--                <div class="chart-circle">-->
+    <!--                  <canvas height="200" id="chartProgress" width="300px"></canvas>-->
+    <!--                </div>-->
+    <!--                <hr>-->
+    <!--                <div class="chart">-->
+    <!--                  <canvas height="542" id="myChart" width="289"></canvas>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--            <div class="question-score">-->
+    <!--              <h2 class="headline-2">Questions' score</h2>-->
+    <!--              <div class="analysis">-->
+    <!--                <h2 class="headline-2">Personal vision</h2>-->
+    <!--                <div class="head">-->
+    <!--                  <h3 class="headline-3">Questions</h3>-->
+    <!--                  <h3 class="headline-3">score</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">3</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">2</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">1</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">3</h3>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--              <div class="analysis">-->
+    <!--                <h2 class="headline-2">Personal vision</h2>-->
+    <!--                <div class="head">-->
+    <!--                  <h3 class="headline-3">Questions</h3>-->
+    <!--                  <h3 class="headline-3">score</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">3</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">2</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">1</h3>-->
+    <!--                </div>-->
+    <!--                <div class="question-and-score">-->
+    <!--                  <p class="small-paragraph">-->
+    <!--                    Te soleat ignota propriae sea, tincidunt constituam te pro, iisque euismod salutatus id qui.-->
+    <!--                  </p>-->
+    <!--                  <h3 class="headline-3">3</h3>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--            <div class="buttons">-->
+    <!--              <a class="btn btn-small back-to-check3" href="#">Back</a>-->
+    <!--              <a class="btn btn-medium print-result" href="#">-->
+    <!--                Print results-->
+    <!--                <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">-->
+    <!--                  <g>-->
+    <!--                    <g>-->
+    <!--                      <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>-->
+    <!--                    </g>-->
+    <!--                  </g>-->
+    <!--                </svg>-->
+    <!--              </a>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>-->
+    <!--    -->
+    <!--  endregion -->
+    
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="social-icons">
+            <a class="icon facebook" href="#">
+              <svg height="30" viewBox="0 0 15 30" width="15" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <g>
+                    <path d="M9.708 8.96V6.6c0-1.151.767-1.418 1.306-1.418h3.312V.122L9.764.103c-5.063 0-6.214 3.775-6.214 6.19V8.96H.622v5.904h2.953v14.763h5.904V14.865h4.383l.212-2.318.326-3.586z"
+                          fill="#fefefe"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a class="icon twitter" href="#">
+              <svg height="24" viewBox="0 0 30 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <g>
+                    <path
+                      d="M29.677 3.19a12.214 12.214 0 0 1-3.478.938 6.006 6.006 0 0 0 2.664-3.3 12.23 12.23 0 0 1-3.85 1.45A6.086 6.086 0 0 0 20.596.393c-3.345 0-6.057 2.67-6.057 5.963 0 .467.054.92.155 1.358a17.286 17.286 0 0 1-12.484-6.23 5.874 5.874 0 0 0-.822 2.997c0 2.068 1.072 3.894 2.695 4.963A6.115 6.115 0 0 1 1.338 8.7v.075c0 .763.15 1.491.415 2.161a6.047 6.047 0 0 0 4.445 3.688 6.253 6.253 0 0 1-1.597.21c-.39 0-.768-.039-1.14-.11.773 2.37 3.01 4.094 5.659 4.142a12.27 12.27 0 0 1-7.523 2.553c-.49 0-.971-.028-1.447-.083a17.368 17.368 0 0 0 9.287 2.678c9.469 0 15.289-6.56 16.823-13.365a16.37 16.37 0 0 0 .396-4.37 12.191 12.191 0 0 0 3.02-3.088z"
+                      fill="#fefefe"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a class="icon linked-in" href="#">
+              <svg height="31" viewBox="0 0 30 31" width="30" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <g>
+                    <path d="M.342 15.831v14.46h6.89V10.606H.342z" fill="#fefefe"/>
+                  </g>
+                  <g>
+                    <path d="M3.788.766a3.445 3.445 0 1 0 0 6.89 3.445 3.445 0 0 0 0-6.89z" fill="#fefefe"/>
+                  </g>
+                  <g>
+                    <path
+                      d="M29.717 16.65c-.467-3.71-2.17-6.042-7.186-6.042-2.975 0-4.973 1.105-5.79 2.656h-.085v-2.656H11.17V30.29h5.735v-9.756c0-2.573.487-5.064 3.668-5.064 3.137 0 3.39 2.942 3.39 5.23v9.59h5.905V19.474h.001c0-1.008-.042-1.953-.15-2.823z"
+                      fill="#fefefe"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a class="icon youtube" href="#">
+              <svg height="22" viewBox="0 0 30 22" width="30" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <g>
+                    <path
+                      d="M20.004 10.551l-7.974 4.308-.003-6.632V6.21l3.597 1.957zm8.367-8.898C27.248.428 25.989.42 25.414.35 21.28.04 15.085.04 15.085.04h-.015S8.871.04 4.741.351C4.164.42 2.908.428 1.782 1.653.899 2.587.611 4.711.611 4.711S.314 7.2.314 9.692v2.335c0 2.493.297 4.984.297 4.984s.288 2.122 1.171 3.055c1.126 1.227 2.602 1.187 3.257 1.315 2.362.236 10.038.31 10.038.31s6.203-.011 10.337-.321c.575-.072 1.834-.077 2.957-1.305.884-.933 1.172-3.054 1.172-3.054s.297-2.491.297-4.984V9.692c0-2.492-.297-4.982-.297-4.982s-.288-2.124-1.172-3.057z"
+                      fill="#fefefe"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="links">
+            <a class="small-link" href="#">Contacts</a>
+            <a class="small-link" href="#">4870 Sadler Rd, #300, Glen Allen, VA 23060</a>
+            <a class="small-link" href="#">Ph: +1.804.332.1307</a>
+            <a class="small-link" href="#">steve@tractionequity.com </a>
+            <a class="small-link" href="#">www.tractionequity.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/general/fix-container.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="assets/js/old-scripts.js"></script>
+  </div>
+</body>
+</html>

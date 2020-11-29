@@ -1,0 +1,48 @@
+// media screen sizes
+$xx-small-screen-max-width: 399.98px;
+$x-small-screen-max-width: 575.98px;
+$small-screen-max-width: 767.98px;
+$medium-screen-max-width: 899.98px;
+$large-screen-max-width: 1023.98px;
+
+
+$x-small-screen-min-width: 400px;
+$small-screen-min-width: 576px;
+$medium-screen-min-width: 768px;
+$large-screen-min-width: 900px;
+$x-large-screen-min-width: 1024px;
+
+// color
+$orange-color: var(--orage-color);
+$white-color: var(--white-color);
+$black-color: var(--black-color);
+$gray-color: var(--gray-color);
+$dark-gray-color: var(--dark-gray-color);
+$light-gray-color: var(--ligth-gray-color);
+$semi-gray-color: var(--semi-gray-color);
+
+
+
+// fonts
+$Roboto: 'Roboto';
+
+//override bootstrap variables
+//$grid-gutter-width: 76px;
+//$container-max-widths: (
+//        'xs': 560px,
+//        'sm': 570px,
+//        'md': 760px,
+//        'lg': 890px,
+//        'xl': (1124/1280)*100%,
+//);
+////$grid-breakpoints: (
+////        'xxs': 0,
+////        'xs': $x-small-screen-min-width,
+////        'sm': $small-screen-min-width,
+////        'md': $medium-screen-min-width,
+////        'lg': $large-screen-min-width,
+////        'xl': $x-large-screen-min-width,
+////);
+
+
+

@@ -1,0 +1,385 @@
+:root {
+    /* Colors: */
+    --orage-color: #e87722;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --gray-color: #333333;
+    --dark-gray-color: #999999;
+    --ligth-gray-color: #b3b3b3;
+    --semi-gray-color: #f0efeb;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 10px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+img {
+    display: block;
+}
+
+button {
+    border: none;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, form {
+    margin: 0;
+    padding: 0;
+}
+body{
+    h1, h2, h3, h4, h5, h6, p, ul, ol, form {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.hover-arrow {
+    .right-arrow, .left-arrow {
+        transition: all 400ms;
+    }
+    
+    &:hover {
+        .right-arrow {
+            //transform: translateX(40%) rotateX(0.01deg) !important;
+            margin-left: size(20);
+        }
+        
+        .left-arrow {
+            //transform: translateX(40%) rotateX(0.01deg) !important;
+            margin-right: size(20);
+        }
+    }
+}
+
+.hover-zoom {
+    transition: transform 800ms;
+    
+    &:hover {
+        transform: scale(1.1) !important;
+    }
+}
+
+.hover-darken {
+    transition: filter 400ms;
+    
+    &:hover {
+        filter: brightness(0.6);
+    }
+}
+
+//.container {
+//    padding-right: size(21);
+//    padding-left: size(21);
+//    @include x-large-screen {
+//        max-width: size(1200);
+//        padding-right: size(38);
+//        padding-left: size(38);
+//    }
+//}
+
+.h-100 {
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.headline-1 {
+    color: $orange-color;
+    font-family: $Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-size: size(28);
+    @include min-medium-screen {
+        font-size: size(45);
+    }
+    @include x-large-screen {
+        font-size: size(58);
+    }
+}
+
+.headline-2 {
+    color: $orange-color;
+    font-family: $Roboto;
+    font-size: size(18);
+    font-weight: 400;
+    line-height: normal;
+    @include min-medium-screen {
+        font-size: size(25);
+    }
+    @include x-large-screen {
+        font-size: size(30);
+    }
+}
+
+.headline-3 {
+    color: $gray-color;
+    font-family: $Roboto;
+    font-size: size(13);
+    font-weight: 700;
+    line-height: normal;
+    @include min-small-screen{
+        font-size: size(15);
+    }
+    @include x-large-screen{
+        font-size: size(18);
+    }
+}
+
+.paragraph {
+    color: $gray-color;
+    font-family: $Roboto;
+    font-size: size(14);
+    font-weight: 500;
+    line-height: normal;
+    @include min-medium-screen {
+        font-size: size(20);
+    }
+    @include x-large-screen {
+        font-size: size(26);
+    }
+}
+.small-paragraph {
+    color: $gray-color;
+    font-family: $Roboto;
+    font-size: size(13);
+    font-weight: 400;
+    line-height: size(20);
+    @include min-small-screen{
+        font-size: size(15);
+    }
+}
+
+.small-link {
+    color: $gray-color;
+    font-family: $Roboto;
+    font-size: size(14);
+    font-weight: 300;
+    line-height: normal;
+    @include x-large-screen{
+        font-size: size(19);
+    }
+}
+
+.has-placeholder, .btn {
+    color: $light-gray-color;
+    font-size: size(17);
+    font-family: $Roboto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    @include min-medium-screen{
+        font-size: size(18);
+    }
+    @include x-large-screen{
+        font-size: size(20);
+    }
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    color: $white-color;
+    @include paddingX(size(20));
+    @include paddingY(size(16));
+    border-radius: size(11);
+    
+    &:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 0;
+        height: 100%;
+        transition: width 400ms;
+        z-index: -1;
+        transform: translate(-50%, -50%);
+        border-radius: inherit;
+    }
+    
+    &:hover{
+        
+        &:before {
+            width: 100%;
+        }
+    }
+    
+    &.btn-big {
+        min-width: size(251);
+        background: $orange-color;
+        
+        &:before {
+            background: $light-gray-color;
+        }
+    }
+    
+    &.btn-medium {
+        min-width: size(217);
+        background: $orange-color;
+        
+        &:before {
+            background: $light-gray-color;
+        }
+    }
+    
+    &.btn-small {
+        min-width: size(100);
+        background: $light-gray-color;
+        @include x-large-screen{
+            min-width: size(149);
+    
+        }
+        
+        &:before {
+            background: $orange-color;
+        }
+    }
+    @include max-small-screen{
+        svg{
+            height: 15px;
+            width: auto;
+        }
+    }
+}
+
+svg {
+    transition: all 400ms ease-in-out;
+    
+    path {
+        transition: all 400ms ease-in-out;
+    }
+}
+
+.line-overflow,
+.word-overflow {
+    overflow: hidden;
+    vertical-align: top;
+}
+
+[class ^="iv-st"], [class *= " iv-st"] {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.iv-st-from-top, .iv-st-from-bottom, .iv-st-from-left, .iv-st-from-right, .word-up, .line-up, .real-line-up {
+}
+
+[smooth-scroll-container] {
+    //width: auto;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+#gear-clip-path-def-svg{
+    opacity: 0;
+    position: absolute;
+    z-index: -100;
+    height: 0;
+    pointer-events: none;
+}
+
+
+.wysiwyg-block{
+    h1 {
+        @extend .headline-1
+    }
+    
+    h2 {
+        @extend .headline-2
+    }
+    
+    h3 {
+        @extend .headline-3
+    }
+    
+    p {
+        @extend .paragraph
+    }
+    img{
+        max-width: 100%;
+        object-fit: contain;
+        height: auto;
+    }
+}
+
+svg text{
+    font-size: 3rem;
+    font-family: Roboto;
+}
+svg.sub-gear{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+svg.alt .gear-circle,svg.alt .gear-circle-white{
+    clip-path: url(#gear-clip-path-alt) !important;
+}
+.wpcf7-not-valid-tip{
+    font-size: 1.8em;
+}
+.wpcf7 form .wpcf7-response-output{
+    font-size: 1.2em;
+}
+
+.btn-medium{
+    .tooltiptext{
+        display: none;
+    }
+    &.coming-soon .tooltiptext{
+        display: inline-block;
+    }
+}
+.coming-soon {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.coming-soon .tooltiptext {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.coming-soon:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
