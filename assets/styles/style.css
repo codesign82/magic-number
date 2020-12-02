@@ -1,7 +1,7 @@
 @import "bootstrap-grid.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 .page-wrapper {
-  background: var(--orage-color);
+  background: var(--gray-color);
 }
 .page-wrapper .phases {
   display: flex;
@@ -17,7 +17,7 @@
   }
 }
 .page-wrapper .phases .number {
-  color: var(--ligth-gray-color);
+  color: #f0efeb;
   font-family: "Roboto";
   font-weight: 300;
   display: flex;

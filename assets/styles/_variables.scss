@@ -13,7 +13,7 @@ $large-screen-min-width: 900px;
 $x-large-screen-min-width: 1024px;
 
 // color
-$orange-color: #b3b3b3;
+$orange-color: var(--orage-color);
 $white-color: var(--white-color);
 $black-color: var(--black-color);
 $gray-color: var(--gray-color);
