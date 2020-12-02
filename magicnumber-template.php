@@ -75,7 +75,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                   <div id="magic_num">
                     <form class="form-horizontal" id="magic_num_form">
                       <div class="form-group">
-                        <label class="label-control col-md-9">
+                        <label class="label-control">
                           Vacations, travel, memberships
                         </label>
                         <div class="input-wrapper">
@@ -87,7 +87,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control col-md-9">Entertainment, gifts to self/others</label>
+                        <label class="label-control">Entertainment, gifts to self/others</label>
                         <div class="input-wrapper">
           
                           <div class="input-group">
@@ -99,7 +99,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control col-md-9">Rent, mortage, utilities, maintenance</label>
+                        <label class="label-control">Rent, mortage, utilities, maintenance</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -109,7 +109,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control col-md-9">Insurance (property, life, health)</label>
+                        <label class="label-control">Insurance (property, life, health)</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -119,7 +119,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control col-md-9">Food, transportation and living</label>
+                        <label class="label-control">Food, transportation and living</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -129,7 +129,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control col-md-9">Your Annual Cash Burn In Retirement</label>
+                        <label class="label-control">Your Annual Cash Burn In Retirement</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -156,7 +156,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control col-md-9">Add: Desired Posessions</label>
+                        <label class="label-control">Add: Desired Posessions</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -166,7 +166,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control col-md-9">Add: Giving Goals</label>
+                        <label class="label-control">Add: Giving Goals</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -179,7 +179,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       <br>
                       <br>
                       <div class="form-group">
-                        <label style="font-weight: bold" class="label-control col-md-9">Your Magic $ Number</label>
+                        <label style="font-weight: bold" class="label-control ">Your Magic $ Number</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
