@@ -1172,6 +1172,13 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   display: flex;
   margin-bottom: 0.6rem;
   align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 899.98px) {
+  .form-group {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
 }
 .form-group input[type=number] {
   width: 17.3rem;
@@ -1179,11 +1186,16 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   background-color: #f0efeb;
   font-size: 1.8rem;
 }
+@media screen and (max-width: 899.98px) {
+  .form-group input[type=number] {
+    width: 32.3rem;
+  }
+}
 
 span.input-group-addon {
   position: absolute;
-  left: -9px;
-  font-size: 20px;
+  left: -3rem;
+  font-size: 2rem;
 }
 
 .input-group {
@@ -1197,6 +1209,10 @@ span.input-group-addon {
 
 .M7_per_container {
   left: -3rem;
+}
+
+.input-wrapper {
+  position: relative;
 }
 
 :root {

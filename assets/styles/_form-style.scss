@@ -1215,17 +1215,25 @@ p.paragraph.text.email {
   display: flex;
   margin-bottom: size(6);
   align-items: center;
+  justify-content: space-between;
+  @include max-medium-screen{
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
   input[type="number"]{
     width: size(173);
     height: size(48);
     background-color: #f0efeb;
     font-size: size(18);
+    @include max-medium-screen{
+      width: 32.3rem;
+    }
   }
 }
 span.input-group-addon {
   position: absolute;
-  left: -9px;
-  font-size: 20px;
+  left: size(-30);
+  font-size: size(20);
 }
 .input-group {
   display: flex;
@@ -1236,4 +1244,7 @@ span.input-group-addon {
 }
 .M7_per_container{
   left: size(-30);
+}
+.input-wrapper {
+  position: relative;
 }
