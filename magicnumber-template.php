@@ -72,7 +72,6 @@ $ba_youtube_link = get_field('ba_youtube_link');
                 <div class="question">
                   <h3 class="headline-2">Magic Number Calculator</h3>
                   <h1 class="headline-1">Annual Retirement Burn Rate (V.E.R.I.F.Y.)</h1>
-                  <p class="paragraph ques-body">
                   <div id="magic_num">
                     <form class="form-horizontal" id="magic_num_form">
                       <div class="form-group">
@@ -189,7 +188,6 @@ $ba_youtube_link = get_field('ba_youtube_link');
     
                     </form>
                   </div>
-                  </p>
                   <div class="buttons">
                     <a class="btn btn-small prev-ques" href="#">Back</a>
                     <a class="btn btn-medium next-ques" href="#">
