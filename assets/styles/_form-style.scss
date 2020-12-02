@@ -133,6 +133,15 @@
     display: flex;
     justify-content: space-between;
     margin-top: size(50);
+    @include max-medium-screen{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .btn-medium{
+        margin-top: 20px;
+        margin-left: 0;
+      }
+    }
 
     .btn-medium {
       display: flex;
@@ -1245,9 +1254,16 @@ span.input-group-addon {
 .M7_per_container{
   position: relative;
   margin-right: size(-30);
+  @include max-medium-screen{
+    margin-right: 0;
+    margin-bottom: size(18);
+  }
 }
 .M7_wrapper {
   display: flex;
+  @include max-medium-screen{
+   flex-direction: column;
+  }
 }
 .input-wrapper {
   position: relative;

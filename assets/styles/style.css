@@ -126,6 +126,17 @@
   justify-content: space-between;
   margin-top: 5rem;
 }
+@media screen and (max-width: 991.98px) {
+  .page-wrapper .buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .page-wrapper .buttons .btn-medium {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
 .page-wrapper .buttons .btn-medium {
   display: flex;
   align-items: center;
@@ -1211,9 +1222,20 @@ span.input-group-addon {
   position: relative;
   margin-right: -3rem;
 }
+@media screen and (max-width: 991.98px) {
+  .M7_per_container {
+    margin-right: 0;
+    margin-bottom: 1.8rem;
+  }
+}
 
 .M7_wrapper {
   display: flex;
+}
+@media screen and (max-width: 991.98px) {
+  .M7_wrapper {
+    flex-direction: column;
+  }
 }
 
 .input-wrapper {
