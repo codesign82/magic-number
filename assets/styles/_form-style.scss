@@ -139,7 +139,7 @@
       align-items: center;
       .btn-medium{
         margin-top: 20px;
-        margin-left: 0;
+        margin-left: 0!important;
       }
     }
 
@@ -1237,12 +1237,18 @@ p.paragraph.text.email {
     @include max-medium-screen{
       width: 32.3rem;
     }
+    @include max-x-small-screen{
+      width: 100%;
+    }
   }
 }
 span.input-group-addon {
   position: absolute;
   left: size(-30);
   font-size: size(20);
+  @include max-x-small-screen{
+    left: size(-20);
+  }
 }
 .input-group {
   display: flex;
@@ -1267,4 +1273,7 @@ span.input-group-addon {
 }
 .input-wrapper {
   position: relative;
+  @include max-x-small-screen{
+    width: 100%;
+  }
 }

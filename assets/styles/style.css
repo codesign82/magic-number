@@ -134,7 +134,7 @@
   }
   .page-wrapper .buttons .btn-medium {
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 }
 .page-wrapper .buttons .btn-medium {
@@ -1202,11 +1202,21 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
     width: 32.3rem;
   }
 }
+@media screen and (max-width: 575.98px) {
+  .form-group input[type=number] {
+    width: 100%;
+  }
+}
 
 span.input-group-addon {
   position: absolute;
   left: -3rem;
   font-size: 2rem;
+}
+@media screen and (max-width: 575.98px) {
+  span.input-group-addon {
+    left: -2rem;
+  }
 }
 
 .input-group {
@@ -1240,6 +1250,11 @@ span.input-group-addon {
 
 .input-wrapper {
   position: relative;
+}
+@media screen and (max-width: 575.98px) {
+  .input-wrapper {
+    width: 100%;
+  }
 }
 
 :root {
