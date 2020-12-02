@@ -78,7 +78,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <label class="label-control col-md-9">
                           Vacations, travel, memberships
                         </label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" type="number" step="0.10" id="M1" name="M1" value="" placeholder="" />
@@ -88,7 +88,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-9">Entertainment, gifts to self/others</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
           
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -100,7 +100,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-9">Rent, mortage, utilities, maintenance</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" type="number" step="0.10" id="M3" name="M3" value="" placeholder="" />
@@ -110,7 +110,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-9">Insurance (property, life, health)</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" type="number" step="0.10" id="M4" name="M4" value="" placeholder="" />
@@ -120,7 +120,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-9">Food, transportation and living</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" type="number" step="0.10" id="M5" name="M5" value="" placeholder="" />
@@ -130,7 +130,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-9">Your Annual Cash Burn In Retirement</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" disabled type="number" step="0.10" id="M6" name="M6" value="" placeholder="" />
@@ -147,7 +147,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                           </div><!-- input group -->
                         </div><!-- col-md-1 -->
         
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" disabled  type="number" step="0.10" id="M7" name="M7" value="" placeholder="" />
@@ -157,7 +157,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-9">Add: Desired Posessions</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" type="number" step="0.10" id="M8" name="M8" value="" placeholder="" />
@@ -167,7 +167,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-9">Add: Giving Goals</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" type="number" step="0.10" id="M9" name="M9" value="" placeholder="" />
@@ -180,7 +180,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       <br>
                       <div class="form-group">
                         <label style="font-weight: bold" class="label-control col-md-9">Your Magic $ Number</label>
-                        <div class="col-md-39999">
+                        <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
                             <input class="form-control magic_number_class" disabled type="number" step="0.10" id="M10" name="M10" value="" placeholder="" />
