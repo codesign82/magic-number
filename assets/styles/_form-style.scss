@@ -1244,7 +1244,10 @@ span.input-group-addon {
 }
 .M7_per_container{
   position: relative;
-  left: size(-30);
+  margin-right: size(-30);
+}
+.M7_wrapper {
+  display: flex;
 }
 .input-wrapper {
   position: relative;

@@ -832,7 +832,7 @@
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
-@media screen and (max-width: 899.98px) {
+@media screen and (max-width: 991.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .gears-container {
     padding: 40px;
   }
@@ -888,7 +888,7 @@
   border-radius: 8px;
   transition: all 400ms;
 }
-@media screen and (max-width: 899.98px) {
+@media screen and (max-width: 991.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabNav .tabLink {
     min-width: 33.3%;
   }
@@ -1174,7 +1174,7 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   align-items: center;
   justify-content: space-between;
 }
-@media screen and (max-width: 899.98px) {
+@media screen and (max-width: 991.98px) {
   .form-group {
     flex-direction: column;
     margin-bottom: 40px;
@@ -1186,7 +1186,7 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   background-color: #f0efeb;
   font-size: 1.8rem;
 }
-@media screen and (max-width: 899.98px) {
+@media screen and (max-width: 991.98px) {
   .form-group input[type=number] {
     width: 32.3rem;
   }
@@ -1209,7 +1209,11 @@ span.input-group-addon {
 
 .M7_per_container {
   position: relative;
-  left: -3rem;
+  margin-right: -3rem;
+}
+
+.M7_wrapper {
+  display: flex;
 }
 
 .input-wrapper {
