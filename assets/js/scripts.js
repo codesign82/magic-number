@@ -3,6 +3,8 @@
 const esoEmail = document.querySelector('.eso-email');
 const step1 = document.querySelector('#step-1');
 const step2 = document.querySelector('#step-2');
+const sendEmail = document.querySelector('.send-email');
+const result = document.querySelector('.the_one_and_only_magic_number');
 
 //endregion define variables
 
@@ -29,5 +31,15 @@ document.addEventListener('wpcf7mailsent', function (event) {
     window.sendToEmail = esoEmail.value;
     step1.classList.remove('active');
     step1.nextElementSibling.classList.add('active');
+}, false);
+
+sendEmail.addEventListener('click', function (event) {
+    wp.ajax.post('send_results_email', {result, email: window.sendToEmail})
+      .done(function (response) {
+          console.log('email sent with the results')
+      })
+      .fail(function () {
+          console.log('email failed')
+      });
 }, false);
 //endregion Initializing step 2

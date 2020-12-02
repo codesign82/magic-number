@@ -184,7 +184,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" disabled type="number" step="0.10" id="M10" name="M10" value="" placeholder="" />
+                            <input class="form-control magic_number_class the_one_and_only_magic_number" disabled type="number" step="0.10" id="M10" name="M10" value="" placeholder="" />
                           </div><!--  input group-->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -193,7 +193,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                   </div>
                   <div class="buttons">
                     <a class="btn btn-small prev-ques" href="#">Back</a>
-                    <a class="btn btn-medium next-ques" href="#">
+                    <a class="btn btn-medium next-ques send-email" href="#">
                       Email me my calculation
                       <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
                         <g>

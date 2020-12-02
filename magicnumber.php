@@ -69,10 +69,10 @@ add_filter('template_include', 'load_plugin_template');
 
 /* AJAX Callback */
 add_action('wp_ajax_send_results_email', function () {
-    if (!isset($_POST['results'])) {
-        wp_send_json_error([$_POST['results'], $_POST['email']]);
+    if (!isset($_POST['result'])) {
+        wp_send_json_error([$_POST['result'], $_POST['email']]);
     }
-    $results = $_POST['results'];
+    $result = $_POST['result'];
     $email = $_POST['email'];
     $from = get_option('admin_email');
 // To send HTML mail, the Content-type header must be set
@@ -85,30 +85,10 @@ add_action('wp_ajax_send_results_email', function () {
         'X-Mailer: PHP/' . phpversion();
 
     $message = "
-<H1>Buyability Assessment Results</H1>
 <H2>Welcome $email</H2>
-
-<table style='max-width: 80%; margin: 0 auto 0 0; border-collapse: collapse;'>
-<thead>
-  <tr>
-    <th style='padding: 10px 20px;font-size: 20px; text-align:left; border: black solid 1px;'>Category</th>
-    <th style='padding: 10px 20px;font-size: 20px; text-align:center; border: black solid 1px;'>Result</th>
-  </tr>
-</thead>
-<tbody>
+<H1>Your Magic Number Is:</H1>
+<H2>$result</H2>
 ";
-    foreach ($results as $key => $value) {
-        $message .= "
-  <tr>
-    <th style='padding: 10px 20px;font-size: 20px; text-align:left; border: black solid 1px;'>".ucfirst(strtolower($key))."</th>
-    <td style='padding: 10px 20px;font-size: 20px; text-align:center; border: black solid 1px;'>$value</td>
-  </tr>
-  ";
-    }
-
-    $message .= '
-</tbody>
-</table>';
-    wp_mail($email, 'Buyability Assessment Results', $message, $headers);
+    wp_mail($email, 'Magic Number Result', $message, $headers);
     wp_send_json_success(true);
 });
