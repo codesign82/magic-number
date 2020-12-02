@@ -1216,10 +1216,22 @@ p.paragraph.text.email {
   display: flex;
   margin-bottom: size(6);
   align-items: center;
-  input{
+  input[type="number"]{
     width: size(173);
     height: size(48);
     background-color: #f0efeb;
     font-size: size(18);
   }
+}
+span.input-group-addon {
+  position: absolute;
+  left: -9px;
+  font-size: 20px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+}
+#M6,#M7,#M10{
+  background: #ffe8da;
 }

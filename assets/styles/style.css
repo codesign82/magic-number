@@ -1176,11 +1176,26 @@ p.paragraph.text.email, .wysiwyg-block p.text.email {
   margin-bottom: 0.6rem;
   align-items: center;
 }
-.form-group input {
+.form-group input[type=number] {
   width: 17.3rem;
   height: 4.8rem;
   background-color: #f0efeb;
   font-size: 1.8rem;
+}
+
+span.input-group-addon {
+  position: absolute;
+  left: -9px;
+  font-size: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+#M6, #M7, #M10 {
+  background: #ffe8da;
 }
 
 :root {
