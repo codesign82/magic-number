@@ -47,7 +47,7 @@ jQuery(()=>{
   })
   sendEmail.addEventListener('click', function (event) {
     console.log(wp,wp.ajax,result,window.sendToEmail);
-    wp.ajax.post('send_results_email', {result, email: window.sendToEmail})
+    wp.ajax.post('send_results_email', {result:result.value, email: window.sendToEmail})
       .done(function (response) {
         console.log('email sent with the results');
         step2.classList.remove('active')
