@@ -7,7 +7,7 @@
   display: flex;
   width: 100%;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .phases {
     flex-direction: column;
     max-width: 14.4rem;
@@ -57,12 +57,12 @@
   border-top-right-radius: 11px;
   opacity: 0;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .phases .number {
     font-size: 2.4rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .phases .number {
     margin-bottom: 0rem;
     font-size: 4.4rem;
@@ -84,7 +84,7 @@
 .page-wrapper .phases .number.active:first-child {
   background: var(--semi-gray-color);
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .phases .number.active {
     margin: 0 -0.1rem 0.8rem 0;
     border-radius: 11px 0 0 11px;
@@ -115,7 +115,7 @@
   background-color: var(--orage-color);
   border-bottom-right-radius: 11px;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .phases .number.number-2.active .border-top {
     opacity: 1;
   }
@@ -134,7 +134,7 @@
   margin-bottom: 8rem;
   display: none;
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .page-wrapper .step {
     margin-bottom: 2rem;
   }
@@ -148,7 +148,7 @@
   margin-bottom: 1.5rem;
   padding: 3rem 2rem 3.5rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .firstStep .business-buyAbility {
     padding: 7rem 7.1rem 12.2rem 7.7rem;
   }
@@ -157,12 +157,12 @@
   margin-bottom: 2.5rem;
   max-width: 28rem;
 }
-@media (min-width: 400px) {
+@media screen and (min-width: 400px) {
   .page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block h1, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
     max-width: 50rem;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block h1, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
     margin-bottom: 3rem;
     max-width: 72.7rem;
@@ -176,7 +176,7 @@
   margin-top: 3rem;
   margin-bottom: 2.5rem;
 }
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
   .page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-2, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-2, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-2 {
     margin-top: 7.7rem;
     margin-bottom: 5rem;
@@ -185,7 +185,7 @@
 .page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-3, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-3, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-3 {
   max-width: 46rem;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-3, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-3, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-3 {
     max-width: 106.4rem;
   }
@@ -194,7 +194,7 @@
   margin-top: 3rem;
   margin-bottom: 3.5rem;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .page-wrapper .firstStep .business-buyAbility .image-wrapper {
     margin-top: 4.7rem;
     margin-bottom: 5rem;
@@ -211,14 +211,14 @@
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .page-wrapper .firstStep .business-email {
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .firstStep .business-email {
     padding: 5.6rem 5.7rem 4.8rem 7.7rem;
   }
@@ -228,20 +228,20 @@
   flex-basis: 100%;
   margin-bottom: 3rem;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .page-wrapper .firstStep .business-email .data {
     max-width: 30rem;
     flex-basis: 30rem;
     margin-bottom: 0;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .firstStep .business-email .data {
     max-width: 40rem;
     flex-basis: 40rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .firstStep .business-email .data {
     max-width: 47rem;
     flex-basis: 47rem;
@@ -289,7 +289,7 @@
   border-radius: 50%;
   cursor: pointer;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .firstStep .business-email .data .text-wrapper .checkmark {
     width: 3rem;
     height: 3rem;
@@ -309,7 +309,7 @@
   transform: translate(-50%, -50%);
   transition: all 400ms ease-in-out;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .firstStep .business-email .data .text-wrapper .checkmark:before {
     width: 1.9rem;
     height: 1.9rem;
@@ -351,7 +351,7 @@
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .steps {
     flex-direction: row;
     min-height: 46.3rem;
@@ -361,7 +361,7 @@
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps {
     flex-direction: row;
   }
@@ -382,7 +382,7 @@
   justify-content: center;
   /* Spinner Circle Rotation */
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation {
     flex-direction: row;
     flex-grow: 1;
@@ -394,23 +394,21 @@
   border-radius: 11px;
   display: flex;
   flex-direction: column;
-  min-height: 360px;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question {
     flex-basis: 68.2rem;
     padding: 5.7rem 6.1rem 4rem 5.7rem;
     margin-right: 0.7rem;
     margin-bottom: 0;
     border-radius: 11px;
-    min-height: 63rem;
   }
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question h1 {
   margin-top: 0.9rem;
   margin-bottom: 2.1rem;
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question h1 {
     font-size: 2.5rem;
   }
@@ -419,7 +417,7 @@
   max-width: 95%;
   margin-bottom: 7rem;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .wysiwyg-block p, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question p {
     max-width: 85%;
   }
@@ -430,7 +428,7 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons .btn-medium {
   min-width: 10rem;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons .btn-medium {
     min-width: 15rem;
   }
@@ -445,7 +443,7 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons .next-ques.active {
   display: flex;
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons .next-ques.active {
     font-size: 1.4rem;
   }
@@ -460,7 +458,7 @@
   border-radius: 0 11px 11px;
   margin-top: -1px;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation {
     padding: 4.6rem 6.1rem 3rem 6.7rem;
     max-width: 29.8rem;
@@ -479,7 +477,7 @@
   width: 100%;
   margin-bottom: 2rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number {
     width: auto;
     margin-bottom: 0;
@@ -501,20 +499,20 @@
   cursor: pointer;
   margin-right: -0.1rem;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .circle {
     width: 5rem;
     height: 5rem;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .circle {
     width: 6.3rem;
     height: 6.3rem;
     font-size: 2.2rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .circle {
     margin-top: -0.1rem;
     margin-right: 0;
@@ -535,7 +533,7 @@
   margin-right: -0.2rem;
   margin-left: -0.1rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill {
     margin-top: -0.1rem;
     margin-right: 0;
@@ -554,7 +552,7 @@
   background: var(--semi-gray-color);
   pointer-events: none;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill:before, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill:after {
     top: 50%;
     transform: translateY(-50%);
@@ -563,7 +561,7 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill:before {
   bottom: 70%;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill:before {
     right: 70%;
     bottom: 0;
@@ -572,7 +570,7 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill:after {
   top: 70%;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill:after {
     left: 70%;
     top: 50%;
@@ -585,14 +583,14 @@
   flex-direction: row-reverse;
   width: 100%;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .text {
     width: auto;
     height: 100%;
     flex-direction: column;
     margin-left: 1.8rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.4rem;
   }
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .text .weak {
@@ -626,7 +624,7 @@
   height: 10rem;
   clear: both;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .sp {
     width: 15rem;
     height: 15rem;
@@ -655,7 +653,7 @@
     transform: rotate(359deg);
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep {
     margin-bottom: 17rem;
   }
@@ -667,7 +665,7 @@
   padding: 1.5rem 2rem;
   border-radius: 11px;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result {
     padding: 6.1rem 6.1rem 5.2rem 6rem;
     margin-top: 0;
@@ -680,7 +678,7 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation h1 {
   margin: 0 !important;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation {
     margin-top: 11rem;
     margin-bottom: 4rem;
@@ -697,7 +695,7 @@
   margin-top: 3rem;
   margin-bottom: 4.5rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score {
     margin-top: 4.8rem;
     margin-bottom: 5.5rem;
@@ -717,7 +715,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .charts {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -730,12 +728,12 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .charts > div:not(:last-child) {
   margin-bottom: 5rem;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .charts > div {
     width: 80%;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .charts > div {
     width: auto;
     height: auto;
@@ -746,7 +744,7 @@
   margin: 0 2rem;
   display: none;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .charts hr {
     display: inline-block;
   }
@@ -764,12 +762,12 @@
   margin-bottom: 3.5rem;
   padding: 2.4rem 1.5rem 2.7rem 1.5rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis {
     padding: 2.4rem 3.4rem 2.7rem 2.4rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .wysiwyg-block h2, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis h2 {
     font-size: 2.2rem;
   }
@@ -789,7 +787,7 @@
   justify-content: space-between;
   margin-bottom: 0.8rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .question-and-score {
     margin-bottom: 0.3rem;
     align-items: center;
@@ -798,22 +796,22 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .question-and-score .small-paragraph {
   max-width: 22rem;
 }
-@media (min-width: 400px) {
+@media screen and (min-width: 400px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .question-and-score .small-paragraph {
     max-width: 28rem;
   }
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .question-and-score .small-paragraph {
     max-width: 40rem;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .question-and-score .small-paragraph {
     max-width: 50rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .question-and-score .small-paragraph {
     max-width: 75.8rem;
   }
@@ -823,7 +821,7 @@
   max-width: fit-content;
   margin-top: 4.6rem;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .backToStep2 {
     font-size: 1.5rem;
   }
@@ -837,12 +835,12 @@
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
-@media (max-width: 899.98px) {
+@media screen and (max-width: 899.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .gears-container {
     padding: 40px;
   }
 }
-@media (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .gears-container {
     padding: 20px;
   }
@@ -893,12 +891,12 @@
   border-radius: 8px;
   transition: all 400ms;
 }
-@media (max-width: 899.98px) {
+@media screen and (max-width: 899.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabNav .tabLink {
     min-width: 33.3%;
   }
 }
-@media (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabNav .tabLink {
     min-width: 50%;
   }
@@ -922,7 +920,7 @@
   font-weight: 400;
   margin-bottom: 3rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h1 {
     font-size: 4rem;
   }
@@ -937,7 +935,7 @@
   font-weight: 400;
   margin-bottom: 3rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block p, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent p {
     font-size: 2.2rem;
     max-width: 76%;
@@ -949,7 +947,7 @@
   text-align: center;
   margin-top: 2rem;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-3, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block h3, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h3 {
     font-size: 3rem;
   }
@@ -960,13 +958,13 @@
   align-items: center;
   background: var(--semi-gray-color);
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent {
     flex-direction: column;
     padding-bottom: 1.5rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent {
     padding: 8rem 5rem;
   }
@@ -974,7 +972,7 @@
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .gear {
   flex: 1 0 50%;
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .gear {
     margin-bottom: 25px;
   }
@@ -993,8 +991,9 @@
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .results .btn {
   text-align: center;
-  min-width: fit-content;
-  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  min-width: unset;
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .results .btn svg {
   margin-left: 0.5rem;
@@ -1037,8 +1036,9 @@
   margin-bottom: 2.7rem;
   margin-top: 3rem;
   text-align: center;
+  text-transform: capitalize;
 }
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
   .page-wrapper .has-total .total-headline {
     font-size: 3.1rem;
     margin-bottom: 5rem;
@@ -1049,6 +1049,7 @@
 }
 
 #progress-container {
+  flex-shrink: 0;
   position: relative;
   height: 5px;
   width: 80%;
@@ -1071,60 +1072,85 @@ p.paragraph.text.email, .wysiwyg-block p.text.email {
   font-size: 3.1rem;
   margin-top: 2rem;
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   p.paragraph.text.email, .wysiwyg-block p.text.email {
     font-size: 2rem;
     margin-top: 0;
   }
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   p.paragraph.text.email span, .wysiwyg-block p.text.email span {
     display: none;
   }
 }
 
 @media print {
+  .tabsWrapper, .tabContentWrapper, .tabContent {
+    display: block !important;
+  }
+
+  .tabContent:nth-of-type(odd) {
+    break-before: page;
+  }
+  .tabContent .gear {
+    display: none;
+  }
+  .tabContent .results {
+    width: 100%;
+  }
+  .tabContent .results a {
+    border: 1px solid black;
+  }
+  #loading {
+    display: none !important;
+  }
+
   .html2canvas {
-    zoom: 0.8;
+    zoom: 0.8 !important;
   }
   .html2canvas .paragraph .text .email, .html2canvas .wysiwyg-block p .text .email, .wysiwyg-block .html2canvas p .text .email {
-    font-size: 4rem;
+    font-size: 4rem !important;
   }
   .html2canvas .paragraph .text .email .span, .html2canvas .wysiwyg-block p .text .email .span, .wysiwyg-block .html2canvas p .text .email .span {
     display: inline !important;
   }
   .html2canvas .total-headline {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
 
-  .tabsWrapper, header, footer {
-    display: none;
+  header, footer, .tabNav, .next-category {
+    display: none !important;
   }
 
   #step-3 {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
+    width: 100vw !important;
   }
 
   .result {
-    padding: 0;
+    padding: 0 !important;
   }
 
   .page-wrapper svg.total-gear {
-    width: 40%;
+    width: 40% !important;
   }
 
   .gears-container {
-    margin: 0;
-    padding: 3rem;
+    margin: 0 !important;
+    padding: 3rem !important;
+  }
+
+  .gearPercent {
+    display: flex !important;
+    flex-direction: row !important;
   }
 }
 .next-category {
   color: #000 !important;
-  cursor: pointer;
+  cursor: pointer !important;
+}
+
+.prev-ques.hide {
+  display: none !important;
 }
 
 :root {
@@ -1218,12 +1244,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   line-height: normal;
   font-size: 2.8rem;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .headline-1, .wysiwyg-block h1 {
     font-size: 4.5rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .headline-1, .wysiwyg-block h1 {
     font-size: 5.8rem;
   }
@@ -1236,12 +1262,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   font-weight: 400;
   line-height: normal;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .headline-2, .wysiwyg-block h2 {
     font-size: 2.5rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .headline-2, .wysiwyg-block h2 {
     font-size: 3rem;
   }
@@ -1254,12 +1280,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   font-weight: 700;
   line-height: normal;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .headline-3, .wysiwyg-block h3 {
     font-size: 1.5rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .headline-3, .wysiwyg-block h3 {
     font-size: 1.8rem;
   }
@@ -1272,12 +1298,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   font-weight: 500;
   line-height: normal;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .paragraph, .wysiwyg-block p {
     font-size: 2rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .paragraph, .wysiwyg-block p {
     font-size: 2.6rem;
   }
@@ -1290,7 +1316,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   font-weight: 400;
   line-height: 2rem;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .small-paragraph {
     font-size: 1.5rem;
   }
@@ -1303,7 +1329,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   font-weight: 300;
   line-height: normal;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .small-link {
     font-size: 1.9rem;
   }
@@ -1318,12 +1344,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   letter-spacing: normal;
   line-height: normal;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .has-placeholder, .btn {
     font-size: 1.8rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .has-placeholder, .btn {
     font-size: 2rem;
   }
@@ -1375,7 +1401,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   min-width: 10rem;
   background: var(--ligth-gray-color);
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .btn.btn-small {
     min-width: 14.9rem;
   }
@@ -1383,7 +1409,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
 .btn.btn-small:before {
   background: var(--orage-color);
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .btn svg {
     height: 15px;
     width: auto;
@@ -1461,7 +1487,7 @@ svg.alt .gear-circle, svg.alt .gear-circle-white {
 
 .coming-soon {
   position: relative;
-  display: inline-block;
+  display: block;
   border-bottom: 1px dotted black;
 }
 
@@ -1494,7 +1520,7 @@ header {
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   header {
     padding-top: 5.2rem;
     padding-bottom: 1rem;
@@ -1504,22 +1530,19 @@ header .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 99rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 header .header-content .logo {
-  width: 8rem;
-  height: 3.5rem;
+  max-width: 25rem;
+  width: auto;
+  height: auto;
   object-fit: contain;
 }
-@media (min-width: 768px) {
+@media screen and (max-width: 767.98px) {
   header .header-content .logo {
-    width: 12rem;
-    height: 5rem;
-  }
-}
-@media (min-width: 1024px) {
-  header .header-content .logo {
-    width: 18rem;
-    height: 8rem;
+    max-width: 20rem;
   }
 }
 header .header-content .burger-menu {
@@ -1653,7 +1676,7 @@ footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   footer {
     padding-top: 3.1rem;
     padding-bottom: 4.6rem;
@@ -1664,13 +1687,13 @@ footer .footer-content {
   flex-direction: column-reverse;
   align-items: center;
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   footer .footer-content {
     padding-left: 5px;
     align-items: baseline;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   footer .footer-content {
     padding-left: 0.7rem;
     flex-direction: row;
@@ -1709,7 +1732,7 @@ footer .social-icons .icon::before {
 footer .social-icons .icon:not(:last-child) {
   margin-right: 1.5rem;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   footer .social-icons .icon:not(:last-child) {
     margin-right: 2.2rem;
   }
@@ -1744,17 +1767,17 @@ footer .links a, footer .links p {
   line-height: 150%;
   transition: color 400ms;
 }
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   footer .links a, footer .links p {
     margin-bottom: 0;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   footer .links a, footer .links p {
     font-size: 1.9rem;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   footer .links a, footer .links p {
     margin-bottom: 0;
   }
@@ -1775,13 +1798,13 @@ footer .links a:hover, footer .links p:hover {
   border-radius: 0.5rem;
   margin-bottom: 5px !important;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .wpcf7 form .wpcf7-response-output {
     margin: 5.6rem 5.7rem 4.8rem 7.7rem !important;
     margin-bottom: 10px !important;
   }
 }
-@media (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
   .wpcf7 form .wpcf7-response-output {
     bottom: -30px;
   }

@@ -144,7 +144,7 @@
   // hide all step and show active step
   .step {
     margin-bottom: size(80);
-    @include max-small-screen{
+    @include max-small-screen {
       margin-bottom: size(20);
     }
     display: none;
@@ -407,19 +407,19 @@
                 border-radius: 11px;
                 display: flex;
                 flex-direction: column;
-                min-height: 360px;
+                //min-height: 360px;
                 @include x-large-screen {
                   flex-basis: size(682);
                   padding: size(57) size(61) size(40) size(57);
                   margin-right: size(7);
                   margin-bottom: 0;
                   border-radius: 11px;
-                  min-height: size(630);
+                  //min-height: size(450);
                 }
 
                 .headline-1 {
                   @include marginY(size(9), size(21));
-                  @include max-small-screen{
+                  @include max-small-screen {
                     font-size: size(25);
                   }
                 }
@@ -456,7 +456,7 @@
 
                     &.active {
                       display: flex;
-                      @include max-small-screen{
+                      @include max-small-screen {
                         font-size: size(14);
                       }
                     }
@@ -595,7 +595,7 @@
                     height: 100%;
                     flex-direction: column;
                     margin-left: size(18);
-                    @include paddingY(size(10), size(10));
+                    @include paddingY(size(10), size(14));
                   }
 
                   .weak {
@@ -692,9 +692,9 @@
                   margin: 0 !important;
                 }
 
-                @include marginY(size(40),size(25));
+                @include marginY(size(40), size(25));
                 @include x-large-screen {
-                  @include marginY(size(110),size(40));
+                  @include marginY(size(110), size(40));
                 }
               }
 
@@ -969,7 +969,7 @@
                   .gearPercent {
                     //margin-top: size(30);
                     display: flex;
-                    padding:size(35) size(20);
+                    padding: size(35) size(20);
                     align-items: center;
                     background: $semi-gray-color;
                     @include max-small-screen {
@@ -977,7 +977,7 @@
                       padding-bottom: size(15);
                     }
                     @include x-large-screen {
-                      padding:size(80) size(50);
+                      padding: size(80) size(50);
                     }
 
                     .gear {
@@ -997,12 +997,15 @@
                         color: $orange-color;
                       }
                     }
+
                     .results {
                       max-width: 100%;
+
                       .btn {
                         text-align: center;
-                        min-width: fit-content;
-                        width: 100%;
+                        max-width: 40rem;
+                        margin: 0 auto;
+                        min-width: unset;
 
                         svg {
                           margin-left: size(5);
@@ -1027,10 +1030,10 @@
                       border-left: none;
 
 
-
                       .next-category {
                         margin-top: 30px;
-                        &:before{
+
+                        &:before {
                           width: 100%;
                         }
                       }
@@ -1053,32 +1056,38 @@
       display: flex;
     }
   }
+
   svg.total-gear {
     width: 50%;
     margin: 0 auto;
     display: none;
   }
-  .total-headline{
+
+  .total-headline {
     display: none;
   }
-  .has-total .total-headline{
+
+  .has-total .total-headline {
     display: block;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 2.7rem;
     margin-top: 3rem;
     text-align: center;
-    @include min-large-screen{
+    text-transform: capitalize;
+    @include min-large-screen {
       font-size: 3.1rem;
       margin-bottom: 5rem;
     }
   }
-  .has-total svg.total-gear{
+
+  .has-total svg.total-gear {
     display: block;
   }
 }
 
 #progress-container {
+  flex-shrink: 0;
   position: relative;
   height: 5px;
   width: 80%;
@@ -1101,12 +1110,13 @@ p.paragraph.text.email {
   margin-bottom: 1rem;
   font-size: 3.1rem;
   margin-top: 2rem;
-  @include max-small-screen{
+  @include max-small-screen {
     font-size: size(20);
     margin-top: 0;
   }
-  span{
-    @include max-small-screen{
+
+  span {
+    @include max-small-screen {
       display: none;
     }
   }
@@ -1114,41 +1124,71 @@ p.paragraph.text.email {
 
 
 @media print {
-  .html2canvas{
-    zoom: .8;
-    .paragraph .text .email{
-      font-size: 4rem;
-      .span{
+  .tabsWrapper, .tabContentWrapper, .tabContent {
+    display: block !important;
+  }
+  .tabContent{
+    &:nth-of-type(odd){
+      break-before: page;
+    }
+    .gear{
+      display: none;
+    }
+    .results{
+      width: 100%;
+      a{
+        border: 1px solid black;
+      }
+      a.coming-soon{
+        //todo remove it
+      }
+    }
+  }
+  #loading {
+    display: none !important;
+  }
+  .html2canvas {
+    zoom: .8!important;
+
+    .paragraph .text .email {
+      font-size: 4rem!important;
+
+      .span {
         display: inline !important;
       }
     }
-    .total-headline{
-      font-size: 2.5rem;
+
+    .total-headline {
+      font-size: 2.5rem!important;
     }
   }
-  .tabsWrapper, header, footer{
-    display: none;
+  header, footer, .tabNav,.next-category {
+    display: none!important;
   }
-  #step-3{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
+  #step-3 {
+    width: 100vw!important;
   }
-  .result{
-    padding: 0;
+  .result {
+    padding: 0!important;
   }
-  .page-wrapper svg.total-gear{
-    width: 40%;
+  .page-wrapper svg.total-gear {
+    width: 40%!important;
   }
-  .gears-container{
-    margin: 0;
-    padding: 3rem;
+  .gears-container {
+    margin: 0!important;
+    padding: 3rem!important;
+  }
+  .gearPercent{
+    display: flex!important;
+    flex-direction: row!important;
   }
 }
 
 .next-category {
-  color: #000!important;
-  cursor: pointer;
+  color: #000 !important;
+  cursor: pointer!important;
+}
+
+.prev-ques.hide {
+  display: none!important;
 }

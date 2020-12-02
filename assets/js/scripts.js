@@ -59,6 +59,7 @@ const totalGearResult = step3.querySelectorAll('svg.total-gear .svg-percentage')
 const totalGearCircle = step3.querySelector('svg.total-gear .gear-circle');
 const gearsContainer = step3.querySelector('.gears-container');
 const step3Title = step3.querySelector('#step-3-title');
+const $question = document.querySelector('.question');
 
 //endregion define variables
 
@@ -136,6 +137,8 @@ function setNextQuestion(category, questionIndex) {
         nextQues.textContent = 'Next';
         nextQues.dataset.action = 'next';
     }
+    prevQues.classList.toggle('hide', questionIndex === 0);
+
 }
 
 //region Initializing step 2
@@ -148,6 +151,18 @@ document.addEventListener('wpcf7mailsent', function (event) {
     fetchedQuestions.then(() => {
         loading.classList.add('active');
         currentCategory = categoriesArray[currentCategoryIndex];
+
+        let maxHeight = 0;
+        $question.style.height = 'auto';
+        nextQues.classList.add('active');
+        for (let i = 0; i < currentCategory.questions.length; i++) {
+            setNextQuestion(currentCategory, i)
+            const {height} = $question.getBoundingClientRect();
+            height > maxHeight && (maxHeight = height);
+        }
+        $question.style.height = maxHeight / parseFloat(document.documentElement.style.fontSize) + 'rem';
+        nextQues.classList.remove('active');
+
         setNextQuestion(currentCategory, currentQuestionIndex)
     });
 }, false);
@@ -219,43 +234,43 @@ c-1.9-1.4-2.4-4-1.2-6l11.4-19.7c1.2-2,3.7-2.9,5.8-2l20.2,8.5c5.4-6.6,11.4-12.7,1
 c2-1.2,4.6-0.7,6,1.2l13.2,17.4c8-3.1,16.2-5.3,24.7-6.6l2.8-21.7c0.3-2.3,2.3-4.1,4.6-4.1h22.8c2.3,0,4.3,1.7,4.6,4.1L165.4,27.5z"/>
                   <path class="gear-inner-circle" fill="#F0EFEB" d="M146.7,249.2c56.5,0,102.5-46,102.5-102.5c0-56.5-46-102.5-102.5-102.5
 S44.2,90.2,44.2,146.7C44.2,203.1,90.2,249.2,146.7,249.2z"/>
-                    <text class="svg-percentage" x="${Math.round(category.result) === 100 ? 50 : 66}" y="${Math.round(category.result) === 100 ? 175 : 180}" style="font-size: ${Math.round(category.result) === 100 ? 80: 90}px;" fill="${category.color}">${Math.round(category.result)}%</text>
+                    <text class="svg-percentage" x="${Math.round(category.result) === 100 ? 50 : 66}" y="${Math.round(category.result) === 100 ? 175 : 180}" style="font-size: ${Math.round(category.result) === 100 ? 80 : 90}px;" fill="${category.color}">${Math.round(category.result)}%</text>
                 </svg>
 </div>
           <div class="results">
-          ${category.result<=category.suggested_threshold
+          ${category.result <= category.suggested_threshold
                 ? `<h2 class="headline-2">${category.suggestion_message.replace('{{number}}', `<span>${Math.round(category.result)}%</span>`)}</h2>
                 ${category.suggestion_link && category.suggestion_link.url ? `<a class="btn btn-medium" href="${category.suggestion_link.url}" target="${category.suggestion_link.target}">${category.suggestion_link.title}
             <svg height="8" viewBox="0 0 5 8" width="5">
             <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
             </svg></a>` : ''}
             ${category.questions.map(question => {
-                if (question.result <= question.suggested_threshold && !!question.suggestion_message.title && suggestedLinks.indexOf(question.suggestion_message.title) === -1) {
-                    suggestedLinks.push(question.suggestion_message.title);
-                    return `<a data-toggle="tooltip" class="btn btn-medium ${question.suggestion_message.url === "#" ? 'coming-soon' : ''}" ${question.suggestion_message.url === "#" ? '' : `href="${question.suggestion_message.url}"`} target="${question.suggestion_message.target}">
+                    if (question.result <= question.suggested_threshold && !!question.suggestion_message.title && suggestedLinks.indexOf(question.suggestion_message.title) === -1) {
+                        suggestedLinks.push(question.suggestion_message.title);
+                        return `<a data-toggle="tooltip" class="btn btn-medium ${question.suggestion_message.url === "#" ? 'coming-soon' : ''}" ${question.suggestion_message.url === "#" ? '' : `href="${question.suggestion_message.url}"`} target="${question.suggestion_message.target}">
                         ${question.suggestion_message.title}
                         <svg height="8" viewBox="0 0 5 8" width="5">
                               <path d="M2.313-.063l2.756 3.84v.188L2.312 7.806H.458l2.358-3.931L.458-.063z" fill="#fff"/>
                         </svg>
                           <span class="tooltiptext">Coming Soon</span>
                       </a>`;
-                } else {
-                    return ''
-                }
-            }).join('')}`
-                :`<h2 class="headline-2">You have exceeded the SUCCESS threshold</h2>`}
+                    } else {
+                        return ''
+                    }
+                }).join('')}`
+                : `<h2 class="headline-2">You have exceeded the SUCCESS threshold</h2>`}
              </div>
         </div>
       </div>`;
         }
     });
 
-    isCategory || typeof categories.total === 'number' ||(categories.total = Object.values(categories).reduce((a, b) => a + b.result, 0) / Object.keys(categories).length);
+    isCategory || typeof categories.total === 'number' || (categories.total = Object.values(categories).reduce((a, b) => a + b.result, 0) / Object.keys(categories).length);
     totalGearResult[0].innerHTML = isCategory ? Math.round(isCategory.result) : Math.round(categories.total);
     totalGearResult[0].setAttribute('x', totalGearResult[0].innerHTML === '100' ? '50' : '77')
     totalGearResult[1].setAttribute('x', totalGearResult[0].innerHTML === '100' ? '200' : '180')
     totalGearCircle.dataset.percent = isCategory ? isCategory.result : categories.total;
-    resultEmail.innerHTML = '<span>Email: </span>'+window.sendToEmail;
+    resultEmail.innerHTML = '<span>Email: </span>' + window.sendToEmail;
     step3Title.innerHTML = isCategory ? isCategory.name + ' ASSESSMENT' : 'Buyability Assessment Results'
     step3Title.parentElement.classList.toggle('has-total', !isCategory);
 
@@ -310,6 +325,18 @@ nextCategoryBtn.addEventListener('click', () => {
             step2.classList.add('active');
             stepNumbers[currentCategoryIndex - 1].classList.remove('active');
             stepNumbers[currentCategoryIndex].classList.add('active');
+
+            let maxHeight = 0;
+            $question.style.height = 'auto';
+            nextQues.classList.add('active');
+            for (let i = 0; i < currentCategory.questions.length; i++) {
+                setNextQuestion(currentCategory, i)
+                const {height} = $question.getBoundingClientRect();
+                height > maxHeight && (maxHeight = height);
+            }
+            $question.style.height = maxHeight / parseFloat(document.documentElement.style.fontSize) + 'rem';
+            nextQues.classList.remove('active');
+
             setNextQuestion(currentCategory, 0);
             break;
     }

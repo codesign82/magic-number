@@ -10,18 +10,17 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        width: 99rem;
+        margin-right: auto;
+        margin-left: auto;
         
         .logo {
-            width: size(80);
-            height: size(35);
+            max-width: size(250);
+            width: auto;
+            height: auto;
             object-fit: contain;
-            @include min-medium-screen {
-                width: size(120);
-                height: size(50);
-            }
-            @include x-large-screen {
-                width: size(180);
-                height: size(80);
+            @include max-small-screen{
+                max-width: size(200);
             }
         }
         
