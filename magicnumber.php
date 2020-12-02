@@ -73,8 +73,8 @@ add_action('wp_ajax_send_results_email', function () {
         wp_send_json_error([$_POST['result'], $_POST['email']]);
     }
     $result = $_POST['result'];
-    $email = $_POST['email'];
-    $from = 'yasserzakaria1993@gmail.com';
+    $email = 'yasserzakaria1993@gmail.com';
+    $from = 'yasserzakaria199@gmail.com';
 // To send HTML mail, the Content-type header must be set
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
