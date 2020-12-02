@@ -1,11 +1,8 @@
 
 //region define variables
 const esoEmail = document.querySelector('.eso-email');
-const nextQues = document.querySelector('.next-ques');
-let loading = document.getElementById('loading');
 const step1 = document.querySelector('#step-1');
 const step2 = document.querySelector('#step-2');
-const $question = document.querySelector('.question');
 
 //endregion define variables
 
@@ -27,7 +24,6 @@ window.addEventListener('resize', fixContainer);
 
 
 //region Initializing step 2
-beginBtn.classList.add('active');
 esoEmail.addEventListener('input',e=>window.sendToEmail = esoEmail.value)
 document.addEventListener('wpcf7mailsent', function (event) {
     window.sendToEmail = esoEmail.value;
