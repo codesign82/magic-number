@@ -128,12 +128,12 @@
 }
 @media screen and (max-width: 991.98px) {
   .page-wrapper .buttons {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
   .page-wrapper .buttons .btn-medium {
-    margin-top: 20px;
+    margin-bottom: 2rem;
     margin-left: 0 !important;
   }
 }
@@ -1230,7 +1230,7 @@ span.input-group-addon {
 
 .M7_per_container {
   position: relative;
-  margin-right: -3rem;
+  margin-right: 6rem;
 }
 @media screen and (max-width: 991.98px) {
   .M7_per_container {

@@ -134,11 +134,11 @@
     justify-content: space-between;
     margin-top: size(50);
     @include max-medium-screen{
-      flex-direction: column;
+      flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
       .btn-medium{
-        margin-top: 20px;
+        margin-bottom: size(20);
         margin-left: 0!important;
       }
     }
@@ -1259,7 +1259,7 @@ span.input-group-addon {
 }
 .M7_per_container{
   position: relative;
-  margin-right: size(-30);
+  margin-right: size(60);
   @include max-medium-screen{
     margin-right: 0;
     margin-bottom: size(18);
