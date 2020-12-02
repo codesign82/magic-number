@@ -1215,7 +1215,7 @@ span.input-group-addon {
 }
 @media screen and (max-width: 575.98px) {
   span.input-group-addon {
-    left: -2rem;
+    left: -2.2rem;
   }
 }
 
@@ -1245,6 +1245,11 @@ span.input-group-addon {
 @media screen and (max-width: 991.98px) {
   .M7_wrapper {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .M7_wrapper {
+    width: 100%;
   }
 }
 

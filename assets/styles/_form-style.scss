@@ -1247,7 +1247,7 @@ span.input-group-addon {
   left: size(-30);
   font-size: size(20);
   @include max-x-small-screen{
-    left: size(-20);
+    left: size(-22);
   }
 }
 .input-group {
@@ -1269,6 +1269,9 @@ span.input-group-addon {
   display: flex;
   @include max-medium-screen{
    flex-direction: column;
+  }
+  @include max-x-small-screen{
+    width: 100%;
   }
 }
 .input-wrapper {
