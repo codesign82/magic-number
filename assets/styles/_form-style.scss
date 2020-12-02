@@ -389,7 +389,7 @@
           flex-grow: 1;
 
           &.secondStep {
-            background: $orange-color;
+            background: transparent;
 
             .question-and-evaluation {
               display: flex;
@@ -452,7 +452,6 @@
                   }
 
                   .next-ques {
-                    display: none;
                     margin-left: auto;
 
                     &.active {

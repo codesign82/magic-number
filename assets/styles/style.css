@@ -373,7 +373,7 @@
   flex-grow: 1;
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep {
-  background: var(--orage-color);
+  background: transparent;
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation {
   display: flex;
@@ -438,7 +438,6 @@
   margin-left: 1.1rem;
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons .next-ques {
-  display: none;
   margin-left: auto;
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons .next-ques.active {

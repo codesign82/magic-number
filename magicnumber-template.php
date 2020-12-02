@@ -71,12 +71,138 @@ $ba_youtube_link = get_field('ba_youtube_link');
               <div class="question-and-evaluation">
                 <div class="question">
                   <div id="progress-container"><div class="progress"></div></div>
-                  <h1 class="headline-1 ques-title"></h1>
-                  <p class="paragraph ques-body"></p>
+                  <h3 class="headline-2">Magic Number Calculator</h3>
+                  <h1 class="headline-1">Annual Retirement Burn Rate (V.E.R.I.F.Y.)</h1>
+                  <p class="paragraph ques-body">
+                  <div id="magic_num">
+                    <form class="form-horizontal" id="magic_num_form">
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-12">
+                          Annual Retirement Burn Rate (V.E.R.I.F.Y.)
+                        </label>
+                      </div><!-- form-group -->
+      
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">
+                          Vacations, travel, memberships
+                        </label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" type="number" step="0.10" id="M1" name="M1" value="" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Entertainment, gifts to self/others</label>
+                        <div class="col-md-3">
+          
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" type="number" step="0.10" id="M2" name="M2"  value="" placeholder="" />
+                          </div><!-- input group-->
+        
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Rent, mortage, utilities, maintenance</label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" type="number" step="0.10" id="M3" name="M3" value="" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Insurance (property, life, health)</label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" type="number" step="0.10" id="M4" name="M4" value="" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Food, transportation and living</label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" type="number" step="0.10" id="M5" name="M5" value="" placeholder="" />
+                          </div><!-- inout group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Your Annual Cash Burn In Retirement</label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" disabled type="number" step="0.10" id="M6" name="M6" value="" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-7">Retirement Nest-egg multiplier</label>
+                        <div class="col-md-2">
+                          <div class="input-group" id="M7_per_container">
+                            <span class="input-group-addon"><i class="fa fa-percent"></i></span>
+                            <input class="form-control magic_number_class"  type="number" step="0.10" id="M7_per" name="M7_per" value="12.5" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-1 -->
+        
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" disabled  type="number" step="0.10" id="M7" name="M7" value="" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Add: Desired Posessions</label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" type="number" step="0.10" id="M8" name="M8" value="" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Add: Giving Goals</label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" type="number" step="0.10" id="M9" name="M9" value="" placeholder="" />
+                          </div><!-- input group -->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+      
+                      <br>
+                      <div class="form-group">
+                        <label class="label-control col-md-9">Your Magic $ Number</label>
+                        <div class="col-md-3">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                            <input class="form-control magic_number_class" disabled type="number" step="0.10" id="M10" name="M10" value="" placeholder="" />
+                          </div><!--  input group-->
+                        </div><!-- col-md-2 -->
+                      </div><!-- form-group -->
+    
+                    </form>
+                  </div>
+                  </p>
                   <div class="buttons">
                     <a class="btn btn-small prev-ques" href="#">Back</a>
                     <a class="btn btn-medium next-ques" href="#">
-                      Next
+                      Email me my calculation
                       <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
                         <g>
                           <g>
@@ -87,49 +213,6 @@ $ba_youtube_link = get_field('ba_youtube_link');
                     </a>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="step thirdStep" style="display: none;" id="step-3">
-              <div class="result">
-                <h1 class="headline-1" id="step-3-title"></h1>
-                <div id="html2canvas">
-                  <p class="paragraph text email">john.doe@gmail.com</p>
-                  <p class="total-headline">Your business’ overall Buyability Strength:</p>
-                  <svg class="total-gear" viewBox="0 0 293.4 293.4">
-                    <circle class="gear-circle-white" clip-path="url(#gear-clip-path)"
-                            fill="none"
-                            stroke="#ffffff" stroke-width="45" stroke-miterlimit="10" cx="146.7" cy="146.7" r="124.1"/>
-                      <circle class="gear-circle" clip-path="url(#gear-clip-path)"
-                            fill="none"
-                            stroke="#E87722" stroke-width="45" stroke-miterlimit="10" cx="146.7" cy="146.7" r="124.1"/>
-
-                    <path class="gear-stroke" fill="none" stroke="#E87722" stroke-width="2" stroke-miterlimit="10" d="M165.4,27.5
-	c8.4,1.3,16.7,3.5,24.7,6.6l13.2-17.4c1.4-1.9,4-2.4,6-1.2L229,26.8c2,1.2,2.9,3.7,2,5.8l-8.5,20.2c6.6,5.4,12.7,11.4,18,18
-	l20.2-8.5c2.2-0.9,4.6-0.1,5.8,2L278,84.1c1.2,2,0.7,4.6-1.2,6l-17.4,13.2c3.1,8,5.3,16.2,6.6,24.7l21.7,2.8
-	c2.3,0.3,4.1,2.3,4.1,4.6v22.8c0,2.3-1.7,4.3-4.1,4.6l-21.7,2.8c-1.3,8.4-3.5,16.7-6.6,24.7l17.4,13.2c1.9,1.4,2.4,4,1.2,6
-	L266.6,229c-1.2,2-3.7,2.9-5.8,2l-20.2-8.5c-5.4,6.6-11.4,12.7-18,18l8.5,20.2c0.9,2.2,0.1,4.6-2,5.8L209.3,278
-	c-2,1.2-4.6,0.7-6-1.2l-13.2-17.4c-8,3.1-16.2,5.3-24.7,6.6l-2.7,21.7c-0.3,2.3-2.3,4.1-4.6,4.1h-22.8c-2.3,0-4.3-1.7-4.6-4.1
-	l-2.8-21.7c-8.4-1.3-16.7-3.5-24.7-6.6l-13.2,17.4c-1.4,1.9-4,2.4-6,1.2l-19.7-11.4c-2-1.2-2.9-3.7-2-5.8l8.5-20.2
-	c-6.6-5.4-12.7-11.4-18-18L32.6,231c-2.2,0.9-4.6,0.1-5.8-2l-11.4-19.7c-1.2-2-0.7-4.6,1.2-6l17.4-13.2c-3.1-8-5.3-16.2-6.6-24.7
-	l-21.7-2.8c-2.3-0.3-4.1-2.3-4.1-4.6v-22.8c0-2.3,1.7-4.3,4.1-4.6l21.7-2.8c1.3-8.4,3.5-16.7,6.6-24.7L16.6,90.1
-	c-1.9-1.4-2.4-4-1.2-6l11.4-19.7c1.2-2,3.7-2.9,5.8-2l20.2,8.5c5.4-6.6,11.4-12.7,18-18l-8.5-20.2c-0.9-2.2-0.1-4.6,2-5.8L84,15.4
-	c2-1.2,4.6-0.7,6,1.2l13.2,17.4c8-3.1,16.2-5.3,24.7-6.6l2.8-21.7c0.3-2.3,2.3-4.1,4.6-4.1h22.8c2.3,0,4.3,1.7,4.6,4.1L165.4,27.5z"/>
-
-                    <path class="gear-inner-circle" fill="#F0EFEB" d="M146.7,249.2c56.5,0,102.5-46,102.5-102.5c0-56.5-46-102.5-102.5-102.5
-	S44.2,90.2,44.2,146.7C44.2,203.1,90.2,249.2,146.7,249.2z"/>
-                    <g class="gear-text" y="50%" data-svg-origin="97 55.359375" transform="matrix(1,0,0,1,0,20.4375)" style="transform-origin: 0px 0px;">
-                        <text class="svg-percentage" x="77" y="160" fill="#e87722" style="font-size: 90px;">99</text>
-                        <text class="svg-percentage" x="180" y="120" fill="#e87722" style="font-size: 50px;">%</text>
-                    </g>
-                  </svg>
-                  <div class="gears-container"></div>
-                </div>
-                <div class="tabsWrapper" id="tabs">
-                  <div class="tabNav"></div>
-                  <div class="tabContentWrapper"></div>
-
-                </div>
-                <a class="btn btn-small next-category">Reset</a>
               </div>
             </div>
           </div>
@@ -198,6 +281,47 @@ $ba_youtube_link = get_field('ba_youtube_link');
     </footer>
     <?php wp_footer(); ?>
     <script src="<?=plugin_dir_url(__FILE__) . '/assets/js/scripts.js'?>"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script>
+      jQuery(document).ready(function($) {
+      function clearformat(v)
+      {
+      
+        if(v==NaN || v=="")
+        {
+          return 0;
+        }else{
+          return v.replace(",","");
+        }
+      }
+      $(".magic_number_class").bind('keyup mouseup', function () {
+        magic_number_calc();
+      });
+      function magic_number_calc()
+      {
+        var m1=parseFloat(clearformat($("#M1").val()));
+        var m2=parseFloat(clearformat($("#M2").val()));
+        var m3=parseFloat(clearformat($("#M3").val()));
+        var m4=parseFloat(clearformat($("#M4").val()));
+        var m5=parseFloat(clearformat($("#M5").val()));
+      
+        var m6=parseFloat(m1+m2+m3+m4+m5);
+        $("#M6").val(m6.toFixed(2));
+        var per=clearformat($("#M7_per").val());
+        var m7=parseFloat(m6*per);
+        $("#M7").val(m7.toFixed(2));
+      
+        var m7=parseFloat(clearformat($("#M7").val()));
+        var m8=parseFloat(clearformat($("#M8").val()));
+        var m9=parseFloat(clearformat($("#M9").val()));
+        var m10=parseFloat(m7+m8+m9);
+        $("#M10").val(m10.toFixed(2));
+        $("#T1").val(m10.toFixed(2));
+      
+      }// function magic_numbre_calc
+      });
+
+    </script>
   </div>
 </body>
 </html>
