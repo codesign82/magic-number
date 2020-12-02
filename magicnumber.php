@@ -21,6 +21,7 @@ function magicnumber_enqueue_script() {
 }
 add_action('wp_enqueue_scripts', 'magicnumber_enqueue_script');
 
+add_filter('wpcf7_autop_or_not', '__return_false');
 
 /**
  * Add "Custom" template to page attirbute template section.
