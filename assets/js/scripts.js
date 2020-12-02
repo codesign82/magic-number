@@ -3,6 +3,9 @@
 const esoEmail = document.querySelector('.eso-email');
 const step1 = document.querySelector('#step-1');
 const step2 = document.querySelector('#step-2');
+const step3 = document.querySelector('#step-3');
+const prev2 = step2.querySelector('.prev-ques');
+const prev3 = step3.querySelector('.prev-ques');
 const sendEmail = document.querySelector('.send-email');
 const result = document.querySelector('.the_one_and_only_magic_number');
 
@@ -33,10 +36,20 @@ document.addEventListener('wpcf7mailsent', function (event) {
     step1.nextElementSibling.classList.add('active');
 }, false);
 
+prev2.addEventListener('click',function (){
+  step2.classList.remove('active')
+  step1.classList.add('active')
+})
+prev3.addEventListener('click',function (){
+  step3.classList.remove('active')
+  step2.classList.add('active')
+})
 sendEmail.addEventListener('click', function (event) {
     wp.ajax.post('send_results_email', {result, email: window.sendToEmail})
       .done(function (response) {
-          console.log('email sent with the results')
+          console.log('email sent with the results');
+        step2.classList.remove('active')
+        step3.classList.add('active')
       })
       .fail(function () {
           console.log('email failed')

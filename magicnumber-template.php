@@ -207,6 +207,16 @@ $ba_youtube_link = get_field('ba_youtube_link');
                 </div>
               </div>
             </div>
+            <div class="step stepThree" id="step-3">
+              <div class="question-and-evaluation">
+                <div class="question">
+                  <h1 class="headline-1">Thanks For Your Time, Email Has Been Sent!</h1>
+                  <div class="buttons">
+                    <a class="btn btn-small prev-ques" href="#">Back</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
