@@ -423,9 +423,6 @@
     max-width: 85%;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons {
-  margin-top: auto;
-}
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .buttons .btn-medium {
   min-width: 10rem;
 }
