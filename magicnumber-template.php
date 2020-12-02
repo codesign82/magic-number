@@ -69,9 +69,6 @@ $ba_youtube_link = get_field('ba_youtube_link');
           <div class="steps">
             <div class="step secondStep active" id="step-2">
               <div class="question-and-evaluation">
-                <div class="loading-wrapper" id="loading">
-                  <div class="sp sp-circle"></div>
-                </div>
                 <div class="question">
                   <div id="progress-container"><div class="progress"></div></div>
                   <h1 class="headline-1 ques-title"></h1>
@@ -90,27 +87,9 @@ $ba_youtube_link = get_field('ba_youtube_link');
                     </a>
                   </div>
                 </div>
-                <div class="evaluation">
-                  <div class="evaluation-number">
-                    <div class="fill"></div>
-                    <div class="circle" data-number="5">5</div>
-                    <div class="fill"></div>
-                    <div class="circle" data-number="4">4</div>
-                    <div class="fill"></div>
-                    <div class="circle" data-number="3">3</div>
-                    <div class="fill"></div>
-                    <div class="circle" data-number="2">2</div>
-                    <div class="fill"></div>
-                    <div class="circle" data-number="1">1</div>
-                  </div>
-                  <div class="text">
-                    <h2 class="headline-2 strong">strong</h2>
-                    <h2 class="headline-2 weak">weak</h2>
-                  </div>
-                </div>
               </div>
             </div>
-            <div class="step thirdStep" id="step-3">
+            <div class="step thirdStep" style="display: none;" id="step-3">
               <div class="result">
                 <h1 class="headline-1" id="step-3-title"></h1>
                 <div id="html2canvas">
