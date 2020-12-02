@@ -1211,3 +1211,15 @@ p.paragraph.text.email {
     flex-direction: row!important;
   }
 }
+
+.form-group {
+  display: flex;
+  margin-bottom: size(6);
+  align-items: center;
+  input{
+    width: size(173);
+    height: size(48);
+    background-color: #f0efeb;
+    font-size: size(18);
+  }
+}

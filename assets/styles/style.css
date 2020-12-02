@@ -1171,6 +1171,18 @@ p.paragraph.text.email, .wysiwyg-block p.text.email {
     flex-direction: row !important;
   }
 }
+.form-group {
+  display: flex;
+  margin-bottom: 0.6rem;
+  align-items: center;
+}
+.form-group input {
+  width: 17.3rem;
+  height: 4.8rem;
+  background-color: #f0efeb;
+  font-size: 1.8rem;
+}
+
 :root {
   /* Colors: */
   --orage-color: #e87722;
@@ -1337,6 +1349,19 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
 @media screen and (min-width: 576px) {
   .small-paragraph {
     font-size: 1.5rem;
+  }
+}
+
+label {
+  color: var(--gray-color);
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+@media screen and (min-width: 576px) {
+  label {
+    font-size: 1.8rem;
   }
 }
 

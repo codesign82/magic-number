@@ -70,20 +70,11 @@ $ba_youtube_link = get_field('ba_youtube_link');
             <div class="step secondStep active" id="step-2">
               <div class="question-and-evaluation">
                 <div class="question">
-                  <div id="progress-container"><div class="progress"></div></div>
                   <h3 class="headline-2">Magic Number Calculator</h3>
                   <h1 class="headline-1">Annual Retirement Burn Rate (V.E.R.I.F.Y.)</h1>
                   <p class="paragraph ques-body">
                   <div id="magic_num">
                     <form class="form-horizontal" id="magic_num_form">
-      
-                      <div class="form-group">
-                        <label class="label-control col-md-12">
-                          Annual Retirement Burn Rate (V.E.R.I.F.Y.)
-                        </label>
-                      </div><!-- form-group -->
-      
-      
                       <div class="form-group">
                         <label class="label-control col-md-9">
                           Vacations, travel, memberships

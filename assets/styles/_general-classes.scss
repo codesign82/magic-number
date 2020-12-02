@@ -168,7 +168,16 @@ body{
         font-size: size(15);
     }
 }
-
+label {
+    color: $gray-color;
+    font-family: $Roboto;
+    font-size: size(16);
+    font-weight: 400;
+    line-height: size(20);
+    @include min-small-screen{
+        font-size: size(18);
+    }
+}
 .small-link {
     color: $gray-color;
     font-family: $Roboto;
