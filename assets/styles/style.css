@@ -1,7 +1,7 @@
 @import "bootstrap-grid.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 .page-wrapper {
-  background: var(--gray-color);
+  background: #b3b3b3;
 }
 .page-wrapper .phases {
   display: flex;
@@ -17,7 +17,7 @@
   }
 }
 .page-wrapper .phases .number {
-  color: #f0efeb;
+  color: var(--ligth-gray-color);
   font-family: "Roboto";
   font-weight: 300;
   display: flex;
@@ -143,7 +143,7 @@
   display: block;
 }
 .page-wrapper .firstStep .business-buyAbility {
-  background: var(--semi-gray-color);
+  background: #f0efeb;
   border-radius: 1.1rem;
   margin-bottom: 1.5rem;
   padding: 3rem 2rem 3.5rem;
@@ -1534,7 +1534,7 @@ svg.alt .gear-circle, svg.alt .gear-circle-white {
 }
 
 header {
-  background: var(--orage-color);
+  background: #b3b3b3;
   margin-bottom: -0.2rem;
   padding-top: 3rem;
   padding-bottom: 1rem;
