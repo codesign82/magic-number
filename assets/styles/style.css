@@ -1208,6 +1208,7 @@ span.input-group-addon {
 }
 
 .M7_per_container {
+  position: relative;
   left: -3rem;
 }
 
