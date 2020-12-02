@@ -394,6 +394,7 @@
   border-radius: 11px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 @media screen and (min-width: 1024px) {
   .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question {
@@ -1084,24 +1085,51 @@ p.paragraph.text.email, .wysiwyg-block p.text.email {
   }
 }
 
+.next-category {
+  color: #000 !important;
+  cursor: pointer !important;
+}
+
+.prev-ques.hide {
+  display: none !important;
+}
+
 @media print {
-  .tabsWrapper, .tabContentWrapper, .tabContent {
+  * {
+    background-color: transparent !important;
+  }
+
+  #step-3 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  .total-headline {
+    margin: 0 !important;
+  }
+
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .phases-and-steps, .steps, .step-wrapper .tabsWrapper, .tabContentWrapper, .tabContent {
     display: block !important;
   }
 
   .tabContent:nth-of-type(odd) {
-    break-before: page;
+    break-before: page !important;
   }
   .tabContent .gear {
-    display: none;
+    display: none !important;
   }
   .tabContent .results {
-    width: 100%;
+    width: 100% !important;
   }
   .tabContent .results a {
-    border: 1px solid black;
+    border: 1px solid black !important;
   }
-  #loading {
+  #loading, .phases, #step-2 {
     display: none !important;
   }
 
@@ -1144,15 +1172,6 @@ p.paragraph.text.email, .wysiwyg-block p.text.email {
     flex-direction: row !important;
   }
 }
-.next-category {
-  color: #000 !important;
-  cursor: pointer !important;
-}
-
-.prev-ques.hide {
-  display: none !important;
-}
-
 :root {
   /* Colors: */
   --orage-color: #e87722;
@@ -1530,7 +1549,6 @@ header .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 99rem;
   margin-right: auto;
   margin-left: auto;
 }

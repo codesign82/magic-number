@@ -143,7 +143,7 @@ function setNextQuestion(category, questionIndex) {
 
 //region Initializing step 2
 beginBtn.classList.add('active');
-
+esoEmail.addEventListener('input',e=>window.sendToEmail = esoEmail.value)
 document.addEventListener('wpcf7mailsent', function (event) {
     window.sendToEmail = esoEmail.value;
     step1.classList.remove('active');
