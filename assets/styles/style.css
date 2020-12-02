@@ -153,40 +153,40 @@
     padding: 7rem 7.1rem 12.2rem 7.7rem;
   }
 }
-.page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block h1, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
+.page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
   margin-bottom: 2.5rem;
   max-width: 28rem;
 }
 @media screen and (min-width: 400px) {
-  .page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block h1, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
+  .page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
     max-width: 50rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block h1, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
+  .page-wrapper .firstStep .business-buyAbility .headline-1, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility h1 {
     margin-bottom: 3rem;
     max-width: 72.7rem;
   }
 }
-.page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-1, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-1, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-1 {
+.page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-1, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block p.paragraph-1, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-1 {
   max-width: 114.7rem;
 }
-.page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-2, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-2, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-2 {
+.page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-2, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block p.paragraph-2, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-2 {
   font-weight: 700;
   margin-top: 3rem;
   margin-bottom: 2.5rem;
 }
 @media screen and (min-width: 900px) {
-  .page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-2, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-2, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-2 {
+  .page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-2, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block p.paragraph-2, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-2 {
     margin-top: 7.7rem;
     margin-bottom: 5rem;
   }
 }
-.page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-3, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-3, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-3 {
+.page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-3, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block p.paragraph-3, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-3 {
   max-width: 46rem;
 }
 @media screen and (min-width: 768px) {
-  .page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-3, .page-wrapper .firstStep .business-buyAbility .wysiwyg-block p.paragraph-3, .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-3 {
+  .page-wrapper .firstStep .business-buyAbility .paragraph.paragraph-3, .page-wrapper .firstStep .business-buyAbility body .wysiwyg-block p.paragraph-3, body .wysiwyg-block .page-wrapper .firstStep .business-buyAbility p.paragraph-3 {
     max-width: 106.4rem;
   }
 }
@@ -318,7 +318,7 @@
 .page-wrapper .firstStep .business-email .data .text-wrapper .checkmark.active:before {
   opacity: 1;
 }
-.page-wrapper .firstStep .business-email .data .text-wrapper .paragraph, .page-wrapper .firstStep .business-email .data .text-wrapper .wysiwyg-block p, .wysiwyg-block .page-wrapper .firstStep .business-email .data .text-wrapper p {
+.page-wrapper .firstStep .business-email .data .text-wrapper .paragraph, .page-wrapper .firstStep .business-email .data .text-wrapper body .wysiwyg-block p, body .wysiwyg-block .page-wrapper .firstStep .business-email .data .text-wrapper p {
   margin-left: 1.8rem;
   max-width: 100%;
 }
@@ -405,21 +405,21 @@
     border-radius: 11px;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question h1 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question h1 {
   margin-top: 0.9rem;
-  margin-bottom: 2.1rem;
+  margin-bottom: 7.3rem;
 }
 @media screen and (max-width: 767.98px) {
-  .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question h1 {
+  .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question h1 {
     font-size: 2.5rem;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .wysiwyg-block p, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question p {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question body .wysiwyg-block p, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question p {
   max-width: 95%;
   margin-bottom: 7rem;
 }
 @media screen and (min-width: 768px) {
-  .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .wysiwyg-block p, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question p {
+  .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question body .wysiwyg-block p, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question p {
     max-width: 85%;
   }
 }
@@ -672,7 +672,7 @@
   margin-top: 4rem;
   margin-bottom: 2.5rem;
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation h1 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .viewRecommendation h1 {
   margin: 0 !important;
 }
 @media screen and (min-width: 1024px) {
@@ -681,7 +681,7 @@
     margin-bottom: 4rem;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result h1 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result h1 {
   margin-top: 0.5rem;
   margin-bottom: 1.1rem;
 }
@@ -698,7 +698,7 @@
     margin-bottom: 5.5rem;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .wysiwyg-block h2, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score h2 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score body .wysiwyg-block h2, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .score h2 {
   font-weight: 700;
   margin-bottom: 3rem;
   letter-spacing: 1px;
@@ -746,7 +746,7 @@
     display: inline-block;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .wysiwyg-block h2, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score h2 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score body .wysiwyg-block h2, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score h2 {
   font-weight: 700;
   letter-spacing: 0.11rem;
   color: var(--gray-color);
@@ -765,7 +765,7 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .wysiwyg-block h2, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis h2 {
+  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis body .wysiwyg-block h2, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .question-score .analysis h2 {
     font-size: 2.2rem;
   }
 }
@@ -913,39 +913,39 @@
   display: none;
   background-color: #e7e7e7;
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h1 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h1 {
   font-weight: 400;
   margin-bottom: 3rem;
 }
 @media screen and (min-width: 1024px) {
-  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block h1, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h1 {
+  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-1, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent body .wysiwyg-block h1, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h1 {
     font-size: 4rem;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block h2, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h2 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent body .wysiwyg-block h2, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h2 {
   margin-bottom: 1rem;
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .text {
   margin-bottom: 2rem;
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block p, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent p {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent body .wysiwyg-block p, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent p {
   font-weight: 400;
   margin-bottom: 3rem;
 }
 @media screen and (min-width: 1024px) {
-  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block p, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent p {
+  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .paragraph, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent body .wysiwyg-block p, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent p {
     font-size: 2.2rem;
     max-width: 76%;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-3, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block h3, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h3 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-3, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent body .wysiwyg-block h3, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h3 {
   font-weight: 400;
   font-size: 4rem;
   text-align: center;
   margin-top: 2rem;
 }
 @media screen and (min-width: 576px) {
-  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-3, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .wysiwyg-block h3, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h3 {
+  .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .headline-3, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent body .wysiwyg-block h3, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent h3 {
     font-size: 3rem;
   }
 }
@@ -974,13 +974,13 @@
     margin-bottom: 25px;
   }
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .wysiwyg-block h2, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent h2 {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .headline-2, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent body .wysiwyg-block h2, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent h2 {
   margin-bottom: 3.5rem;
   text-align: center;
   font-weight: 700;
   color: var(--black-color);
 }
-.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .headline-2 span, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .wysiwyg-block h2 span, .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent h2 span {
+.page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .headline-2 span, .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent body .wysiwyg-block h2 span, body .wysiwyg-block .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent h2 span {
   color: var(--orage-color);
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.thirdStep .result .tabsWrapper .tabContent .gearPercent .results {
@@ -1064,19 +1064,19 @@
   transition: width 400ms;
 }
 
-p.paragraph.text.email, .wysiwyg-block p.text.email {
+p.paragraph.text.email, body .wysiwyg-block p.text.email {
   margin-bottom: 1rem;
   font-size: 3.1rem;
   margin-top: 2rem;
 }
 @media screen and (max-width: 767.98px) {
-  p.paragraph.text.email, .wysiwyg-block p.text.email {
+  p.paragraph.text.email, body .wysiwyg-block p.text.email {
     font-size: 2rem;
     margin-top: 0;
   }
 }
 @media screen and (max-width: 767.98px) {
-  p.paragraph.text.email span, .wysiwyg-block p.text.email span {
+  p.paragraph.text.email span, body .wysiwyg-block p.text.email span {
     display: none;
   }
 }
@@ -1132,10 +1132,10 @@ p.paragraph.text.email, .wysiwyg-block p.text.email {
   .html2canvas {
     zoom: 0.8 !important;
   }
-  .html2canvas .paragraph .text .email, .html2canvas .wysiwyg-block p .text .email, .wysiwyg-block .html2canvas p .text .email {
+  .html2canvas .paragraph .text .email, .html2canvas body .wysiwyg-block p .text .email, body .wysiwyg-block .html2canvas p .text .email {
     font-size: 4rem !important;
   }
-  .html2canvas .paragraph .text .email .span, .html2canvas .wysiwyg-block p .text .email .span, .wysiwyg-block .html2canvas p .text .email .span {
+  .html2canvas .paragraph .text .email .span, .html2canvas body .wysiwyg-block p .text .email .span, body .wysiwyg-block .html2canvas p .text .email .span {
     display: inline !important;
   }
   .html2canvas .total-headline {
@@ -1193,6 +1193,10 @@ span.input-group-addon {
 
 #M6, #M7, #M10 {
   background: #ffe8da;
+}
+
+.M7_per_container {
+  left: -3rem;
 }
 
 :root {
@@ -1271,15 +1275,13 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   filter: brightness(0.6);
 }
 
-.h-100 {
+body .h-100 {
   height: 100%;
 }
-
-.center {
+body .center {
   text-align: center;
 }
-
-.headline-1, .wysiwyg-block h1 {
+body .headline-1, body .wysiwyg-block h1 {
   color: var(--orage-color);
   font-family: "Roboto";
   font-weight: 400;
@@ -1287,17 +1289,16 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   font-size: 2.8rem;
 }
 @media screen and (min-width: 768px) {
-  .headline-1, .wysiwyg-block h1 {
+  body .headline-1, body .wysiwyg-block h1 {
     font-size: 4.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .headline-1, .wysiwyg-block h1 {
+  body .headline-1, body .wysiwyg-block h1 {
     font-size: 5.8rem;
   }
 }
-
-.headline-2, .wysiwyg-block h2 {
+body .headline-2, body .wysiwyg-block h2 {
   color: var(--orage-color);
   font-family: "Roboto";
   font-size: 1.8rem;
@@ -1305,17 +1306,16 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
-  .headline-2, .wysiwyg-block h2 {
+  body .headline-2, body .wysiwyg-block h2 {
     font-size: 2.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .headline-2, .wysiwyg-block h2 {
+  body .headline-2, body .wysiwyg-block h2 {
     font-size: 3rem;
   }
 }
-
-.headline-3, .wysiwyg-block h3 {
+body .headline-3, body .wysiwyg-block h3 {
   color: var(--gray-color);
   font-family: "Roboto";
   font-size: 1.3rem;
@@ -1323,17 +1323,16 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   line-height: normal;
 }
 @media screen and (min-width: 576px) {
-  .headline-3, .wysiwyg-block h3 {
+  body .headline-3, body .wysiwyg-block h3 {
     font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .headline-3, .wysiwyg-block h3 {
+  body .headline-3, body .wysiwyg-block h3 {
     font-size: 1.8rem;
   }
 }
-
-.paragraph, .wysiwyg-block p {
+body .paragraph, body .wysiwyg-block p {
   color: var(--gray-color);
   font-family: "Roboto";
   font-size: 1.4rem;
@@ -1341,17 +1340,16 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
-  .paragraph, .wysiwyg-block p {
+  body .paragraph, body .wysiwyg-block p {
     font-size: 2rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .paragraph, .wysiwyg-block p {
+  body .paragraph, body .wysiwyg-block p {
     font-size: 2.6rem;
   }
 }
-
-.small-paragraph {
+body .small-paragraph {
   color: var(--gray-color);
   font-family: "Roboto";
   font-size: 1.3rem;
@@ -1359,25 +1357,23 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   line-height: 2rem;
 }
 @media screen and (min-width: 576px) {
-  .small-paragraph {
+  body .small-paragraph {
     font-size: 1.5rem;
   }
 }
-
-label {
+body label {
   color: var(--gray-color);
   font-family: "Roboto";
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 2rem;
 }
 @media screen and (min-width: 576px) {
-  label {
-    font-size: 1.8rem;
+  body label {
+    font-size: 2rem;
   }
 }
-
-.small-link {
+body .small-link {
   color: var(--gray-color);
   font-family: "Roboto";
   font-size: 1.4rem;
@@ -1385,12 +1381,11 @@ label {
   line-height: normal;
 }
 @media screen and (min-width: 1024px) {
-  .small-link {
+  body .small-link {
     font-size: 1.9rem;
   }
 }
-
-.has-placeholder, .btn {
+body .has-placeholder, body .btn {
   color: var(--ligth-gray-color);
   font-size: 1.7rem;
   font-family: "Roboto";
@@ -1400,17 +1395,16 @@ label {
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
-  .has-placeholder, .btn {
+  body .has-placeholder, body .btn {
     font-size: 1.8rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .has-placeholder, .btn {
+  body .has-placeholder, body .btn {
     font-size: 2rem;
   }
 }
-
-.btn {
+body .btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1423,7 +1417,7 @@ label {
   padding-bottom: 1.6rem;
   border-radius: 1.1rem;
 }
-.btn:before {
+body .btn:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -1435,118 +1429,104 @@ label {
   transform: translate(-50%, -50%);
   border-radius: inherit;
 }
-.btn:hover:before {
+body .btn:hover:before {
   width: 100%;
 }
-.btn.btn-big {
+body .btn.btn-big {
   min-width: 25.1rem;
   background: var(--orage-color);
 }
-.btn.btn-big:before {
+body .btn.btn-big:before {
   background: var(--ligth-gray-color);
 }
-.btn.btn-medium {
+body .btn.btn-medium {
   min-width: 21.7rem;
   background: var(--orage-color);
 }
-.btn.btn-medium:before {
+body .btn.btn-medium:before {
   background: var(--ligth-gray-color);
 }
-.btn.btn-small {
+body .btn.btn-small {
   min-width: 10rem;
   background: var(--ligth-gray-color);
 }
 @media screen and (min-width: 1024px) {
-  .btn.btn-small {
+  body .btn.btn-small {
     min-width: 14.9rem;
   }
 }
-.btn.btn-small:before {
+body .btn.btn-small:before {
   background: var(--orage-color);
 }
 @media screen and (max-width: 767.98px) {
-  .btn svg {
+  body .btn svg {
     height: 15px;
     width: auto;
   }
 }
-
-svg {
+body svg {
   transition: all 400ms ease-in-out;
 }
-svg path {
+body svg path {
   transition: all 400ms ease-in-out;
 }
-
-.line-overflow,
-.word-overflow {
+body .line-overflow,
+body .word-overflow {
   overflow: hidden;
   vertical-align: top;
 }
-
-[class^=iv-st], [class*=" iv-st"] {
+body [class^=iv-st], body [class*=" iv-st"] {
   opacity: 0;
   visibility: hidden;
 }
-
-[smooth-scroll-container] {
+body [smooth-scroll-container] {
   height: 100vh;
   width: 100%;
   overflow: hidden;
   margin: 0;
 }
-
-#gear-clip-path-def-svg {
+body #gear-clip-path-def-svg {
   opacity: 0;
   position: absolute;
   z-index: -100;
   height: 0;
   pointer-events: none;
 }
-
-.wysiwyg-block img {
+body .wysiwyg-block img {
   max-width: 100%;
   object-fit: contain;
   height: auto;
 }
-
-svg text {
+body svg text {
   font-size: 3rem;
   font-family: Roboto;
 }
-
-svg.sub-gear {
+body svg.sub-gear {
   width: 85%;
   display: block;
   margin: 0 auto;
 }
-
-svg.alt .gear-circle, svg.alt .gear-circle-white {
+body svg.alt .gear-circle, body svg.alt .gear-circle-white {
   clip-path: url(#gear-clip-path-alt) !important;
 }
-
-.wpcf7-not-valid-tip {
+body .wpcf7-not-valid-tip {
   font-size: 1.8em;
 }
-
-.wpcf7 form .wpcf7-response-output {
+body .wpcf7 form .wpcf7-response-output {
   font-size: 1.2em;
 }
-
-.btn-medium .tooltiptext {
+body .btn-medium .tooltiptext {
   display: none;
 }
-.btn-medium.coming-soon .tooltiptext {
+body .btn-medium.coming-soon .tooltiptext {
   display: inline-block;
 }
-
-.coming-soon {
+body .coming-soon {
   position: relative;
   display: block;
   border-bottom: 1px dotted black;
 }
-
-.coming-soon .tooltiptext {
+body .coming-soon .tooltiptext {
   visibility: hidden;
   width: fit-content;
   background-color: black;
@@ -1563,8 +1543,7 @@ svg.alt .gear-circle, svg.alt .gear-circle-white {
   opacity: 0;
   transition: opacity 1s;
 }
-
-.coming-soon:hover .tooltiptext {
+body .coming-soon:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }

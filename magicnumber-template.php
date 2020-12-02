@@ -140,7 +140,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       
                       <div class="form-group">
                         <label class="label-control col-md-7">Retirement Nest-egg multiplier</label>
-                        <div class="col-md-2">
+                        <div class="col-md-2 M7_per_container" >
                           <div class="input-group" id="M7_per_container">
                             <span class="input-group-addon"><i class="fa fa-percent">%</i></span>
                             <input class="form-control magic_number_class"  type="number" step="0.10" id="M7_per" name="M7_per" value="12.5" placeholder="" />
@@ -176,8 +176,10 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <br>
+                      <br>
+                      <br>
                       <div class="form-group">
-                        <label class="label-control col-md-9">Your Magic $ Number</label>
+                        <label style="font-weight: bold" class="label-control col-md-9">Your Magic $ Number</label>
                         <div class="col-md-3">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>

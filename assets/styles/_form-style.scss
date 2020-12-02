@@ -419,7 +419,7 @@
                 }
 
                 .headline-1 {
-                  @include marginY(size(9), size(21));
+                  @include marginY(size(9), size(73));
                   @include max-small-screen {
                     font-size: size(25);
                   }
@@ -1233,4 +1233,7 @@ span.input-group-addon {
 }
 #M6,#M7,#M10{
   background: #ffe8da;
+}
+.M7_per_container{
+  left: size(-30);
 }
