@@ -20,6 +20,10 @@ function magicnumber_enqueue_script() {
 //  wp_enqueue_style('styles', plugin_dir_url(__FILE__) . '/assets/style/style.css');
 }
 add_action('wp_enqueue_scripts', 'magicnumber_enqueue_script');
+function jquery_enqueue_script() {
+  wp_enqueue_script('jquery');
+}
+add_action('init', 'jquery_enqueue_script');
 
 add_filter('wpcf7_autop_or_not', '__return_false');
 
