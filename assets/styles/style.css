@@ -1191,10 +1191,6 @@ body .coming-soon:hover .tooltiptext {
   opacity: 1;
 }
 
-#magic_num {
-  background: red;
-}
-
 @media print {
   .phases-and-steps, .steps, .step-wrapper .tabsWrapper, .tabContentWrapper, .tabContent {
     display: block !important;
