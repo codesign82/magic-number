@@ -58,5 +58,9 @@ jQuery(()=>{
       });
   }, false);
 //endregion Initializing step 2
-
+  
+  
+  $('input').autoNumeric(
+    'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
+  );
 })
