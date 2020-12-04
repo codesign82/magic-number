@@ -328,7 +328,9 @@ $ba_youtube_link = get_field('ba_youtube_link');
           var m10=parseFloat(m7+m8+m9);
           parseInt($("#M10").val(m10.toFixed(2)));
           parseInt($("#T1").val(m10.toFixed(2)));
-        
+          $('#M10,#M6,#M7').autoNumeric(
+            'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
+          );
         }// function magic_numbre_calc
       });
   
