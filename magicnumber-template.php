@@ -304,16 +304,16 @@ $ba_youtube_link = get_field('ba_youtube_link');
  
     <script>
       jQuery(document).ready(function($) {
-      function clearformat(v)
-      {
-      
-        if(v==NaN || v=="")
-        {
-          return 0;
-        }else{
-          return v.replace(",","");
-        }
-      }
+      // function clearformat(v)
+      // {
+      //
+      //   if(v==NaN || v=="")
+      //   {
+      //     return 0;
+      //   }else{
+      //     return v.replace(",","");
+      //   }
+      // }
       $(".magic_number_class").bind('keyup mouseup', function () {
         magic_number_calc();
       });
