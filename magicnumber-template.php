@@ -313,7 +313,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         function magic_number_calc()
         {
           var m1=parseFloat(clearFormat($("#M1")));
-          console.log(m1);
+          console.log($("#M1").val(),m1,clearFormat($("#M1")));
           var m2=parseFloat(clearFormat($("#M2")));
           var m3=parseFloat(clearFormat($("#M3")));
           var m4=parseFloat(clearFormat($("#M4")));
