@@ -312,7 +312,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         function magic_number_calc()
         {
           var m1=$("#M1").autoNumeric('get');
-          console.log(m1);
+          console.log(m1,'a7a');
           var m2=$("#M2").autoNumeric('get');
           var m3=$("#M3").autoNumeric('get');
           var m4=$("#M4").autoNumeric('get');
