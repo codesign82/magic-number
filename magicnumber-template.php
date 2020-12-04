@@ -305,28 +305,29 @@ $ba_youtube_link = get_field('ba_youtube_link');
     <script src="http://www.decorplanit.com/plugin/autoNumeric-1.9.45.js" ></script>
     <script src="<?=plugin_dir_url(__FILE__) . '/assets/js/scripts.js'?>"></script>
     <script>
+      const clearFormat = $input=>$input.val().replace(/,/g,'')
       jQuery(document).ready(function($) {
         $(".magic_number_class").bind('keyup mouseup', function () {
           magic_number_calc();
         });
         function magic_number_calc()
         {
-          var m1=parseFloat($("#M1").val());
+          var m1=parseFloat(clearFormat($("#M1")));
           console.log(m1);
-          var m2=parseFloat($("#M2").val());
-          var m3=parseFloat($("#M3").val());
-          var m4=parseFloat($("#M4").val());
-          var m5=parseFloat($("#M5").val());
+          var m2=parseFloat(clearFormat($("#M2")));
+          var m3=parseFloat(clearFormat($("#M3")));
+          var m4=parseFloat(clearFormat($("#M4")));
+          var m5=parseFloat(clearFormat($("#M5")));
         
           var m6=parseFloat(m1+m2+m3+m4+m5);
           $("#M6").val(m6||0);
-          var per=Math.round($("#M7_per").val().replace(/,/g,''));
+          var per=Math.round(clearFormat($("#M7_per")));
           var m7=parseFloat(m6*per);
           $("#M7").val(m7||0);
         
-          var m7=parseFloat($("#M7").val());
-          var m8=parseFloat($("#M8").val());
-          var m9=parseFloat($("#M9").val());
+          var m7=parseFloat(clearFormat($("#M7")));
+          var m8=parseFloat(clearFormat($("#M8")));
+          var m9=parseFloat(clearFormat($("#M9")));
           var m10=parseFloat(m7+m8+m9);
           $("#M10").val(m10||0);
           $("#T1").val(m10||0);
