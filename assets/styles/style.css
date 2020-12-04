@@ -877,6 +877,12 @@ span.input-group-addon {
   background: #ffe8da;
 }
 
+@media screen and (min-width: 900px) {
+  input#M7_per {
+    max-width: 1.2rem;
+  }
+}
+
 .M7_per_container {
   position: relative;
   margin-right: 6rem;

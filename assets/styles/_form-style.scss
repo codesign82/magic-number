@@ -893,6 +893,12 @@ span.input-group-addon {
 #M6,#M7,#M10{
   background: #ffe8da;
 }
+input#M7_per{
+  @include min-large-screen {
+    max-width: size(12);
+  }
+}
+
 .M7_per_container{
   position: relative;
   margin-right: size(60);
