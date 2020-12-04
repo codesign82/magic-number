@@ -312,7 +312,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         });
         function magic_number_calc()
         {
-          var m1=parseFloat(clearFormat($("#M1")));
+          var m1=$("#M1").autoNumeric('get')
           console.log($("#M1").val(),m1,clearFormat($("#M1")));
           var m2=parseFloat(clearFormat($("#M2")));
           var m3=parseFloat(clearFormat($("#M3")));
@@ -320,7 +320,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
           var m5=parseFloat(clearFormat($("#M5")));
         
           var m6=parseFloat(m1+m2+m3+m4+m5);
-          $("#M6").val(m6||0);
+          $("#M6").autoNumeric('set',m6||0);
           var per=Math.round(clearFormat($("#M7_per")));
           var m7=parseFloat(m6*per);
           $("#M7").val(m7||0);
@@ -332,7 +332,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
           $("#M10").val(m10||0);
           $("#T1").val(m10||0);
           $('#M10,#M6,#M7').autoNumeric(
-            'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
+            'set', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
           );
         }// function magic_numbre_calc
       });
