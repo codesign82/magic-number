@@ -326,7 +326,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         var m5=parseFloat($("#M5").val());
       
         var m6=parseFloat(m1+m2+m3+m4+m5);
-        $("#M6").val(m6.toFixed(2));
+        parseInt($("#M6").val(m6.toFixed(2)));
         var per=parseInt($("#M7_per").val());
         var m7=parseFloat(m6*per);
         parseInt($("#M7").val(m7.toFixed(2)));
