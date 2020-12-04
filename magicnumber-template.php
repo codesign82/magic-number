@@ -319,21 +319,21 @@ $ba_youtube_link = get_field('ba_youtube_link');
       });
       function magic_number_calc()
       {
-        var m1=parseFloat(clearformat($("#M1").val()));
-        var m2=parseFloat(clearformat($("#M2").val()));
-        var m3=parseFloat(clearformat($("#M3").val()));
-        var m4=parseFloat(clearformat($("#M4").val()));
-        var m5=parseFloat(clearformat($("#M5").val()));
+        var m1=parseFloat($("#M1").val());
+        var m2=parseFloat($("#M2").val());
+        var m3=parseFloat($("#M3").val());
+        var m4=parseFloat($("#M4").val());
+        var m5=parseFloat($("#M5").val());
       
         var m6=parseFloat(m1+m2+m3+m4+m5);
         $("#M6").val(m6.toFixed(2));
-        var per=clearformat($("#M7_per").val());
+        var per=$("#M7_per").val();
         var m7=parseFloat(m6*per);
         $("#M7").val(m7.toFixed(2));
       
-        var m7=parseFloat(clearformat($("#M7").val()));
-        var m8=parseFloat(clearformat($("#M8").val()));
-        var m9=parseFloat(clearformat($("#M9").val()));
+        var m7=parseFloat($("#M7").val());
+        var m8=parseFloat($("#M8").val());
+        var m9=parseFloat($("#M9").val());
         var m10=parseFloat(m7+m8+m9);
         $("#M10").val(m10.toFixed(2));
         $("#T1").val(m10.toFixed(2));
