@@ -60,7 +60,7 @@ jQuery(()=>{
 //endregion Initializing step 2
   
   
-  jQuery('input').autoNumeric(
+  jQuery(':input[type="number"]').autoNumeric(
     'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
   );
 })
