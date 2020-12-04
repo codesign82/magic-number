@@ -212,7 +212,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                   </div>
                   <div class="buttons">
                     <a class="btn btn-small prev-ques" href="#">Back</a>
-                    <a class="btn btn-medium next-ques" href="#">Print</a>
+                    <a onclick="window.print()" class="btn btn-medium next-ques" href="#">Print</a>
                     <a class="btn btn-medium next-ques" href="https://valueandgrowthcalculator.com" target="_blank">
                        Next
                       <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">

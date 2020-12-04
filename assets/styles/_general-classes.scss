@@ -395,3 +395,8 @@ body{
     }
     
 }
+
+@media print {
+    @page {size: A4 landscape; margin:10mm 10mm 0mm;}
+    html, body {height: 100%;}
+}
