@@ -24,7 +24,6 @@ function jquery_enqueue_script() {
   wp_enqueue_script('jquery');
 }
 add_action('init', 'jquery_enqueue_script');
-
 add_filter('wpcf7_autop_or_not', '__return_false');
 
 /**

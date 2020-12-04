@@ -1,9 +1,9 @@
 header {
     background: #b3b3b3;
     margin-bottom: size(-2);
-    @include paddingY(size(30),size(10));
+    @include paddingY(size(20),size(30));
     @include x-large-screen {
-        @include paddingY(size(52), size(10));
+        @include paddingY(size(20), size(52));
     }
     
     .header-content {
@@ -14,12 +14,17 @@ header {
         margin-left: auto;
         
         .logo {
-            max-width: size(250);
-            width: auto;
+            width: size(330);
             height: auto;
             object-fit: contain;
             @include max-small-screen{
-                max-width: size(200);
+                width: size(170);
+            }
+            @include max-x-small-screen{
+                width: size(140);
+            }
+            @include xx-small-screen{
+                width: size(125);
             }
         }
         
@@ -121,72 +126,58 @@ header {
         }
         
         .links {
-            width: size(320);
-            height: 100vh;
-            position: fixed;
-            top: 0;
-            right: size(-320);
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            background: $semi-gray-color;
-            transition: all 400ms ease-in-out;
-            padding-top: size(130);
-            z-index: 10;
             
             .small-link {
-                color: $gray-color;
-                overflow: hidden;
-                
+                color: #fff;
+                font-weight: 500;
+                font-size: size(26);
+                position: relative;
+                padding-bottom: size(10);
+                @include max-medium-screen{
+                    font-size: size(20);
+                }
+                @include max-x-small-screen{
+                    font-size: size(16);
+                }
+                @include xx-small-screen{
+                    font-size: size(13);
+                    padding-bottom: size(5);
+                }
                 &:not(:last-child) {
-                    margin-bottom: size(20);
+                    margin-right: size(25);
+                    @include max-x-small-screen{
+                        margin-right: size(15);
+                    }
+                    @include xx-small-screen{
+                        margin-right: size(8);
+                    }
                 }
                 
-                span {
-                    position: relative;
-                    transition: transform 0.3s ease-in-out;
-                    display: block;
-                    
-                    &:before {
-                        position: absolute;
-                        top: 100%;
-                        content: attr(data-hover);
-                        transform: translate3d(0, 0, 0);
+                &:before {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    right: 0;
+                    width: 0;
+                    background: white;
+                    height: size(3);
+                    transition: width 0.3s ease-in-out;
+                    @include xx-small-screen{
+                        height: size(2);
                     }
                 }
                 
                 &:hover {
-                    span {
-                        transform: translateY(-100%);
-                        color: $orange-color;
-                        
+                    &:before {
+                        width: 100%;
                     }
                 }
                 
             }
             
-            &.active {
-                right: 0;
-            }
-            
-            .cross {
-                min-width: size(20);
-                min-height: size(15);
-                position: absolute;
-                top: 8%;
-                left: 50%;
-                transform: translateX(-50%);
-                transition: all 400ms ease-in-out;
-                cursor: pointer;
-                display: none;
-                
-                &.active {
-                    display: block;
-                }
-            }
-            
         }
-        
     }
 }
-

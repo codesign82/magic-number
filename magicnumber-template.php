@@ -27,6 +27,11 @@ $ba_youtube_link = get_field('ba_youtube_link');
     <div class="container">
       <div class="header-content">
         <a href="<?=$ba_logo_link?>"><img alt="<?=$ba_logo['alt']?>" class="logo" src="<?=$ba_logo['url']?>"></a>
+        
+        <div class="links">
+          <a class="small-link" href="http://buyablebusiness.com/" target="_blank">Buyable Book</a>
+          <a class="small-link" href="https://tractionequity.com/steve-preda/" target="_blank">About Steve</a>
+        </div>
       </div>
     </div>
   </header>
