@@ -879,7 +879,7 @@ span.input-group-addon {
 
 @media screen and (min-width: 900px) {
   input#M7_per {
-    max-width: 1.2rem;
+    max-width: 12rem;
   }
 }
 

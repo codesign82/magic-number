@@ -895,7 +895,7 @@ span.input-group-addon {
 }
 input#M7_per{
   @include min-large-screen {
-    max-width: size(12);
+    max-width: size(120);
   }
 }
 
