@@ -301,50 +301,40 @@ $ba_youtube_link = get_field('ba_youtube_link');
       </div>
     </footer>
     <?php wp_footer(); ?>
- 
-    <script>
-      jQuery(document).ready(function($) {
-      // function clearformat(v)
-      // {
-      //
-      //   if(v==NaN || v=="")
-      //   {
-      //     return 0;
-      //   }else{
-      //     return v.replace(",",",");
-      //   }
-      // }
-      $(".magic_number_class").bind('keyup mouseup', function () {
-        magic_number_calc();
-      });
-      function magic_number_calc()
-      {
-        var m1=parseFloat($("#M1").val());
-        var m2=parseFloat($("#M2").val());
-        var m3=parseFloat($("#M3").val());
-        var m4=parseFloat($("#M4").val());
-        var m5=parseFloat($("#M5").val());
-      
-        var m6=parseFloat(m1+m2+m3+m4+m5);
-        parseInt($("#M6").val(m6.toFixed(2)));
-        var per=parseInt($("#M7_per").val());
-        var m7=parseFloat(m6*per);
-        parseInt($("#M7").val(m7.toFixed(2)));
-      
-        var m7=parseFloat($("#M7").val());
-        var m8=parseFloat($("#M8").val());
-        var m9=parseFloat($("#M9").val());
-        var m10=parseFloat(m7+m8+m9);
-        parseInt($("#M10").val(m10.toFixed(2)));
-        parseInt($("#T1").val(m10.toFixed(2)));
-      
-      }// function magic_numbre_calc
-      });
-
-    </script>
-  
     <script src="http://www.decorplanit.com/plugin/autoNumeric-1.9.45.js" ></script>
     <script src="<?=plugin_dir_url(__FILE__) . '/assets/js/scripts.js'?>"></script>
+    <script>
+      jQuery(document).ready(function($) {
+        $(".magic_number_class").bind('keyup mouseup', function () {
+          magic_number_calc();
+        });
+        function magic_number_calc()
+        {
+          var m1=parseFloat($("#M1").val());
+          var m2=parseFloat($("#M2").val());
+          var m3=parseFloat($("#M3").val());
+          var m4=parseFloat($("#M4").val());
+          var m5=parseFloat($("#M5").val());
+        
+          var m6=parseFloat(m1+m2+m3+m4+m5);
+          parseInt($("#M6").val(m6.toFixed(2)));
+          var per=parseInt($("#M7_per").val());
+          var m7=parseFloat(m6*per);
+          parseInt($("#M7").val(m7.toFixed(2)));
+        
+          var m7=parseFloat($("#M7").val());
+          var m8=parseFloat($("#M8").val());
+          var m9=parseFloat($("#M9").val());
+          var m10=parseFloat(m7+m8+m9);
+          parseInt($("#M10").val(m10.toFixed(2)));
+          parseInt($("#T1").val(m10.toFixed(2)));
+        
+        }// function magic_numbre_calc
+      });
+  
+  
+    </script>
+
   </div>
 </body>
 </html>
