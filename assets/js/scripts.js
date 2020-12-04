@@ -10,11 +10,11 @@ jQuery(()=>{
   const prev3 = step3.querySelector('.prev-ques');
   const sendEmail = document.querySelector('.send-email');
   const result = document.querySelector('.the_one_and_only_magic_number');
-  const magic = document.querySelector('#M10').value.replace(/,/g,'');
+  const magic = document.querySelector('#M10');
 
 //endregion define variables
   nextToGrowth.addEventListener('click',function (){
-    window.location.href = `https://valueandgrowthcalculator.com/?mn=${magic}`;
+    window.open(`https://valueandgrowthcalculator.com/?mn=${magic.value.replace(/,/g,'')}`, '_blank');
   })
 
 //region fix container
