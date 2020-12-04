@@ -1173,7 +1173,7 @@ body .coming-soon .tooltiptext {
   visibility: hidden;
   width: fit-content;
   background-color: black;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 10px;
@@ -1192,7 +1192,7 @@ body .coming-soon:hover .tooltiptext {
 }
 
 @media print {
-  .phases-and-steps, .steps, .step-wrapper .tabsWrapper, .tabContentWrapper, .tabContent {
+  .phases-and-steps, .steps, .step-wrapper .tabsWrapper, .tabContentWrapper, .tabContent, form, input {
     display: block !important;
   }
 
@@ -1212,10 +1212,6 @@ body .coming-soon:hover .tooltiptext {
     width: 100vw !important;
     width: 100% !important;
     flex: 0 0 100% !important;
-  }
-
-  form, input {
-    display: block !important;
   }
 }
 header {
