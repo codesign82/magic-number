@@ -414,7 +414,9 @@ form, input {
   .phases-and-steps, .steps, .step-wrapper .tabsWrapper, .tabContentWrapper, .tabContent, form, input {
     display: block !important;
   }
-  
+  .page-wrapper {
+    background: transparent;
+  }
   @page {
     size: A4 portrait;
     margin: 10mm 10mm 0mm;

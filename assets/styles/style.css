@@ -1200,6 +1200,10 @@ form, input {
     display: block !important;
   }
 
+  .page-wrapper {
+    background: transparent;
+  }
+
   @page {
     size: A4 portrait;
     margin: 10mm 10mm 0mm;
