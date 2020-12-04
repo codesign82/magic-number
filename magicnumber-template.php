@@ -320,7 +320,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         
           var m6=parseFloat(m1+m2+m3+m4+m5);
           $("#M6").autoNumeric('set',m6||0);
-          var per=Math.round(clearFormat($("#M7_per")));
+          var per=Math.round($("#M7_per").autoNumeric('get'));
           var m7=parseFloat(m6*per);
           $("#M7").autoNumeric('set',m7||0);
         
