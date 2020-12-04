@@ -1191,6 +1191,10 @@ body .coming-soon:hover .tooltiptext {
   opacity: 1;
 }
 
+form, input {
+  display: block !important;
+}
+
 @media print {
   .phases-and-steps, .steps, .step-wrapper .tabsWrapper, .tabContentWrapper, .tabContent, form, input {
     display: block !important;
