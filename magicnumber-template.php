@@ -71,12 +71,26 @@ $ba_youtube_link = get_field('ba_youtube_link');
               <div class="border-top"></div>
             </div>
           </div>
+          <script>
+            function addCommas(nStr)
+            {
+              nStr += '';
+              x = nStr.split('.');
+              x1 = x[0];
+              x2 = x.length > 1 ? '.' + x[1] : '';
+              var rgx = /(\d+)(\d{3})/;
+              while (rgx.test(x1)) {
+                x1 = x1.replace(rgx, '$1' + ',' + '$2');
+              }
+              return x1 + x2;
+            }
+          </script>
           <div class="steps">
             <div class="step secondStep active" id="step-2">
               <div class="question-and-evaluation">
                 <div class="question">
                   <h3 class="headline-2">Magic Number Calculator</h3>
-                  <h1 class="headline-1">Annual Retirement Burn Rate (V.E.R.I.F.Y.)</h1>
+                  <h1 class="headline-1">Annual Retirement Burn Rate</h1>
                   <div id="magic_num">
                     <form class="form-horizontal" id="magic_num_form">
                       <div class="form-group">
@@ -86,7 +100,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" type="number" step="0.10" id="M1" name="M1" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" type="number" step="0.10" id="M1" name="M1" value="" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -97,7 +111,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
           
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" type="number" step="0.10" id="M2" name="M2"  value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" type="number" step="0.10" id="M2" name="M2"  value="" placeholder="" />
                           </div><!-- input group-->
         
                         </div><!-- col-md-2 -->
@@ -108,7 +122,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" type="number" step="0.10" id="M3" name="M3" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" type="number" step="0.10" id="M3" name="M3" value="" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -118,7 +132,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" type="number" step="0.10" id="M4" name="M4" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" type="number" step="0.10" id="M4" name="M4" value="" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -128,7 +142,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" type="number" step="0.10" id="M5" name="M5" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" type="number" step="0.10" id="M5" name="M5" value="" placeholder="" />
                           </div><!-- inout group -->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -138,7 +152,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" disabled type="number" step="0.10" id="M6" name="M6" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" disabled type="number" step="0.10" id="M6" name="M6" value="" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -149,13 +163,13 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class=" M7_per_container" >
                           <div class="input-group" id="M7_per_container">
                             <span class="input-group-addon"><i class="fa fa-percent">%</i></span>
-                            <input class="form-control magic_number_class"  type="number" step="0.10" id="M7_per" name="M7_per" value="12.5" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class"  type="number" step="0.10" id="M7_per" name="M7_per" value="12.5" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-1 -->
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" disabled  type="number" step="0.10" id="M7" name="M7" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" disabled  type="number" step="0.10" id="M7" name="M7" value="" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-2 -->
                         </div>
@@ -166,7 +180,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" type="number" step="0.10" id="M8" name="M8" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" type="number" step="0.10" id="M8" name="M8" value="" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -176,7 +190,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class" type="number" step="0.10" id="M9" name="M9" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class" type="number" step="0.10" id="M9" name="M9" value="" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
@@ -189,7 +203,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
-                            <input class="form-control magic_number_class the_one_and_only_magic_number" disabled type="number" step="0.10" id="M10" name="M10" value="" placeholder="" />
+                            <input onchange="return addCommas(this.value)" class="form-control magic_number_class the_one_and_only_magic_number" disabled type="number" step="0.10" id="M10" name="M10" value="" placeholder="" />
                           </div><!--  input group-->
                         </div><!-- col-md-2 -->
                       </div><!-- form-group -->
