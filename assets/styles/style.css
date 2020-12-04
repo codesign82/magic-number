@@ -750,10 +750,6 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
 }
 
 @media print {
-  * {
-    background-color: transparent !important;
-  }
-
   #step-3 {
     width: 100% !important;
     flex: 0 0 100% !important;
@@ -784,7 +780,7 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   .tabContent .results a {
     border: 1px solid black !important;
   }
-  #loading, .phases, #step-2 {
+  #loading, .phases {
     display: none !important;
   }
 

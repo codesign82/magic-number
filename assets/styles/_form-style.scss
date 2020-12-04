@@ -780,9 +780,6 @@ p.paragraph.text.email {
 
 
 @media print {
-  *{
-    background-color: transparent !important;
-  }
   #step-3{
     width: 100% !important;
     flex: 0 0 100% !important;
@@ -815,7 +812,7 @@ p.paragraph.text.email {
       }
     }
   }
-  #loading, .phases, #step-2 {
+  #loading, .phases {
     display: none !important;
   }
   .html2canvas {
