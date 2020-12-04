@@ -869,6 +869,7 @@ p.paragraph.text.email {
     height: size(48);
     background-color: #f0efeb;
     font-size: size(18);
+    text-align: right;
     @include max-medium-screen{
       width: 32.3rem;
     }

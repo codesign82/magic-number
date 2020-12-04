@@ -162,8 +162,8 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="M7_wrapper">
                         <div class=" M7_per_container" >
                           <div class="input-group" id="M7_per_container">
-                            <span class="input-group-addon"><i class="fa fa-percent">%</i></span>
-                            <input class="form-control magic_number_class"  type="text" step="0.10" id="M7_per" name="M7_per" value="12.5" placeholder="" />
+<!--                            <span class="input-group-addon"><i class="fa fa-percent">%</i></span>-->
+                            <input style="text-align: center" class="form-control magic_number_class"  type="text" step="0.10" id="M7_per" name="M7_per" value="25" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-1 -->
                         <div class="input-wrapper">
@@ -212,8 +212,9 @@ $ba_youtube_link = get_field('ba_youtube_link');
                   </div>
                   <div class="buttons">
                     <a class="btn btn-small prev-ques" href="#">Back</a>
-                    <a class="btn btn-medium next-ques send-email" href="#">
-                      Email me my calculation
+                    <a class="btn btn-medium next-ques" href="#">Print</a>
+                    <a class="btn btn-medium next-ques" href=https://valueandgrowthcalculator.com" target="_blank">
+                       Next
                       <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
                         <g>
                           <g>
