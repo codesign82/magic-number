@@ -5,13 +5,17 @@ jQuery(()=>{
   const step1 = document.querySelector('#step-1');
   const step2 = document.querySelector('#step-2');
   const step3 = document.querySelector('#step-3');
+  const nextToGrowth = document.querySelector('.next-to-growth');
   const prev2 = step2.querySelector('.prev-ques');
   const prev3 = step3.querySelector('.prev-ques');
   const sendEmail = document.querySelector('.send-email');
   const result = document.querySelector('.the_one_and_only_magic_number');
+  const magic = document.querySelector('#M10').value.replace(/,/g,'');
 
 //endregion define variables
-
+  nextToGrowth.addEventListener('click',function (){
+    window.location.href = `https://valueandgrowthcalculator.com/?mn=${magic}`;
+  })
 
 //region fix container
   function fixContainer() {
