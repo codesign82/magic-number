@@ -45,18 +45,18 @@ jQuery(()=>{
     step3.classList.remove('active')
     step2.classList.add('active')
   })
-  sendEmail.addEventListener('click', function (event) {
-    console.log(wp,wp.ajax,result.value,window.sendToEmail);
-    wp.ajax.post('send_results_email', {result:result.value, email: window.sendToEmail})
-      .done(function (response) {
-        console.log('email sent with the results');
-        step2.classList.remove('active')
-        step3.classList.add('active')
-      })
-      .fail(function () {
-        console.log('email failed')
-      });
-  }, false);
+  // sendEmail.addEventListener('click', function (event) {
+  //   console.log(wp,wp.ajax,result.value,window.sendToEmail);
+  //   wp.ajax.post('send_results_email', {result:result.value, email: window.sendToEmail})
+  //     .done(function (response) {
+  //       console.log('email sent with the results');
+  //       step2.classList.remove('active')
+  //       step3.classList.add('active')
+  //     })
+  //     .fail(function () {
+  //       console.log('email failed')
+  //     });
+  // }, false);
 //endregion Initializing step 2
   
   
