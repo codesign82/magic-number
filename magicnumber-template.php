@@ -343,7 +343,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
 
     </script>
   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/autonumeric/4.1.0/autoNumeric.min.js" ></script>
+    <script src="http://www.decorplanit.com/plugin/autoNumeric-1.9.45.js" ></script>
     <script src="<?=plugin_dir_url(__FILE__) . '/assets/js/scripts.js'?>"></script>
   </div>
 </body>
