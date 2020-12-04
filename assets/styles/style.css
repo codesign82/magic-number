@@ -126,7 +126,7 @@
   justify-content: space-between;
   margin-top: 5rem;
 }
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 767.98px) {
   .page-wrapper .buttons {
     flex-direction: column-reverse;
     justify-content: center;
@@ -135,6 +135,9 @@
   .page-wrapper .buttons .btn-medium {
     margin-bottom: 2rem;
     margin-left: 0 !important;
+  }
+  .page-wrapper .buttons .btn {
+    width: 100%;
   }
 }
 .page-wrapper .buttons .btn-medium {
@@ -749,6 +752,25 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   display: none !important;
 }
 
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm 10mm 0mm;
+  }
+  html, body {
+    height: 100%;
+  }
+
+  header, footer, .buttons {
+    display: none !important;
+  }
+
+  #step-2 {
+    width: 100vw !important;
+    width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}
 .form-group {
   display: flex;
   margin-bottom: 0.6rem;

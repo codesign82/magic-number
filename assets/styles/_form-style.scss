@@ -133,13 +133,16 @@
     display: flex;
     justify-content: space-between;
     margin-top: size(50);
-    @include max-medium-screen{
+    @include max-small-screen{
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
       .btn-medium{
         margin-bottom: size(20);
         margin-left: 0!important;
+      }
+      .btn{
+        width: 100%;
       }
     }
 
