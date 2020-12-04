@@ -312,6 +312,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         function magic_number_calc()
         {
           var m1=parseFloat($("#M1").val());
+          console.log(m1);
           var m2=parseFloat($("#M2").val());
           var m3=parseFloat($("#M3").val());
           var m4=parseFloat($("#M4").val());
@@ -319,7 +320,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         
           var m6=parseFloat(m1+m2+m3+m4+m5);
           $("#M6").val(m6||0);
-          var per=Math.round($("#M7_per").val());
+          var per=Math.round($("#M7_per").val().replace(/,/g,''));
           var m7=parseFloat(m6*per);
           $("#M7").val(m7||0);
         
