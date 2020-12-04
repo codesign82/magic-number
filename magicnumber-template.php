@@ -305,36 +305,31 @@ $ba_youtube_link = get_field('ba_youtube_link');
     <script src="http://www.decorplanit.com/plugin/autoNumeric-1.9.45.js" ></script>
     <script src="<?=plugin_dir_url(__FILE__) . '/assets/js/scripts.js'?>"></script>
     <script>
-      const clearFormat = $input=>$input.val().replace(/,/g,'')
       jQuery(document).ready(function($) {
         $(".magic_number_class").bind('keyup mouseup', function () {
           magic_number_calc();
         });
         function magic_number_calc()
         {
-          var m1=$("#M1").autoNumeric('get')
-          console.log($("#M1").val(),m1,clearFormat($("#M1")));
-          console.log('bazetbzet');
-          var m2=parseFloat(clearFormat($("#M2")));
-          var m3=parseFloat(clearFormat($("#M3")));
-          var m4=parseFloat(clearFormat($("#M4")));
-          var m5=parseFloat(clearFormat($("#M5")));
+          var m1=$("#M1").autoNumeric('get');
+          console.log(m1);
+          var m2=$("#M2").autoNumeric('get');
+          var m3=$("#M3").autoNumeric('get');
+          var m4=$("#M4").autoNumeric('get');
+          var m5=$("#M5").autoNumeric('get');
         
           var m6=parseFloat(m1+m2+m3+m4+m5);
           $("#M6").autoNumeric('set',m6||0);
           var per=Math.round(clearFormat($("#M7_per")));
           var m7=parseFloat(m6*per);
-          $("#M7").val(m7||0);
+          $("#M7").autoNumeric('set',m7||0);
         
-          var m7=parseFloat(clearFormat($("#M7")));
-          var m8=parseFloat(clearFormat($("#M8")));
-          var m9=parseFloat(clearFormat($("#M9")));
+          var m7=$("#M7").autoNumeric('get');
+          var m8=$("#M8").autoNumeric('get');
+          var m9=$("#M9").autoNumeric('get');
           var m10=parseFloat(m7+m8+m9);
-          $("#M10").val(m10||0);
-          $("#T1").val(m10||0);
-          $('#M10,#M6,#M7').autoNumeric(
-            'set', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
-          );
+          $("#M10").autoNumeric('set',m10||0);
+          $("#T1").autoNumeric('set',m10||0);
         }// function magic_numbre_calc
       });
   
