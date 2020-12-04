@@ -1218,6 +1218,10 @@ form, input {
     flex: 0 0 100% !important;
   }
 }
+.btn {
+  cursor: pointer;
+}
+
 header {
   background: #b3b3b3;
   margin-bottom: -0.2rem;
