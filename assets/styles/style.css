@@ -280,6 +280,12 @@
   line-height: normal;
   transition: all 400ms ease-in-out;
 }
+.page-wrapper .firstStep .business-email .data input:-moz-placeholder {
+  line-height: 4rem;
+}
+.page-wrapper .firstStep .business-email .data input::-moz-placeholder {
+  line-height: 4rem;
+}
 .page-wrapper .firstStep .business-email .data input:focus::placeholder {
   opacity: 0;
 }

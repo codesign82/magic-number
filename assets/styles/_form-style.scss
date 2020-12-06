@@ -277,9 +277,16 @@
             letter-spacing: normal;
             line-height: normal;
             transition: all 400ms ease-in-out;
-
           }
-
+          &:-moz-placeholder {
+            line-height: size(40);
+          }
+  
+          &::-moz-placeholder {
+            line-height: size(40);
+          }
+  
+  
           &:focus {
             &::placeholder {
               opacity: 0;
