@@ -1240,7 +1240,6 @@ form, input {
   @supports (-moz-appearance: meterbar) {
     .container {
       margin: 0;
-      font-size: 0.9em;
       width: 100%;
       max-width: 100%;
     }
