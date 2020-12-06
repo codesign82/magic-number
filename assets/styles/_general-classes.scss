@@ -436,6 +436,9 @@ form, input {
     max-width: 100px;
     text-align: center;
   }
+  .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .question .headline-1{
+    margin-bottom: size(20);
+  }
   @supports (-moz-appearance:meterbar) {
     .container {
       margin: 0;

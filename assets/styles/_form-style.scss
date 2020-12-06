@@ -445,7 +445,7 @@
                 }
 
                 .headline-1 {
-                  @include marginY(size(9), size(73));
+                  @include marginY(size(9), size(45));
                   @include max-small-screen {
                     font-size: size(25);
                   }
