@@ -432,6 +432,14 @@ form, input {
     width: 100% !important;
     flex: 0 0 100% !important;
   }
+  @supports (-moz-appearance:meterbar) {
+    .container {
+      margin: 0;
+      font-size: 0.90em;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
 }
 
 .btn{
