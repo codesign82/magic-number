@@ -1230,6 +1230,7 @@ form, input {
 
   input#M7_per {
     max-width: 100px;
+    text-align: center;
   }
 
   @supports (-moz-appearance: meterbar) {
