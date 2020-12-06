@@ -29,8 +29,8 @@ $ba_youtube_link = get_field('ba_youtube_link');
         <a href="<?=$ba_logo_link?>"><img alt="<?=$ba_logo['alt']?>" class="logo" src="<?=$ba_logo['url']?>"></a>
         
         <div class="links">
-          <a class="small-link" href="http://buyablebusiness.com/" target="_blank">Buyable Book</a>
-          <a class="small-link" href="https://tractionequity.com/steve-preda/" target="_blank">About Steve</a>
+          <a class="small-link" href="http://buyablebusiness.com/" target="_blank">Buyable</a>
+          <a class="small-link" href="https://tractionequity.com/steve-preda/" target="_blank">About</a>
         </div>
       </div>
     </div>
@@ -89,9 +89,9 @@ $ba_youtube_link = get_field('ba_youtube_link');
             <div class="step secondStep active" id="step-2">
               <div class="question-and-evaluation">
                 <div class="question">
-                  <h3 class="headline-2">Magic Number Calculator</h3>
-                  <h1 class="headline-1">Annual Retirement Burn Rate</h1>
+                  <h3 class="headline-1">Magic Number Calculator</h3>
                   <div id="magic_num">
+                    <label class="new-headline">Annual Retirement Burn Rate (VERIFY)</label>
                     <form style="display: block !important;" class="form-horizontal" id="magic_num_form">
                       <div class="form-group">
                         <label class="label-control">
@@ -138,7 +138,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control"><strong>F</strong>ood, transportation and living</label>
+                        <label class="label-control"><strong>F</strong>ood, transportation, and household goods</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -199,7 +199,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       <br>
                       <br>
                       <div class="form-group">
-                        <label style="font-weight: bold" class="label-control ">Your Magic $ Number</label>
+                        <label style="font-weight: bold" class="label-control your-magic-number">Your Magic Number</label>
                         <div class="input-wrapper">
                           <div class="input-group">
                            <span class="input-group-addon"><i class="fa fa-dollar">$</i></span>
@@ -214,7 +214,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                     <a class="btn btn-small prev-ques" href="#">Back</a>
                     <a onclick="window.print()" class="btn btn-medium next-ques" href="#">Print</a>
                     <a class="btn btn-medium next-ques next-to-growth" target="_blank">
-                       Next
+                      Value & Growth
                       <svg height="8" viewBox="0 0 5 8" width="5" xmlns="http://www.w3.org/2000/svg">
                         <g>
                           <g>

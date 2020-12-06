@@ -437,3 +437,24 @@ form, input {
 .btn{
   cursor: pointer;
 }
+
+.new-headline{
+  margin-bottom: size(20);
+  border-bottom: size(1) solid;
+  padding-bottom: size(11);
+  border-top: size(1) solid;
+  padding-top: size(11);
+  font-weight: 500;
+  @include max-medium-screen{
+    margin-bottom: size(40);
+    text-align: center;
+  }
+}
+
+.your-magic-number{
+  font-size: size(25);
+  @include max-medium-screen{
+    font-size: size(22);
+    line-height: size(25);
+  }
+}
