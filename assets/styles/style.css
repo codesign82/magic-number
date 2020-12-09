@@ -787,6 +787,9 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
     width: 100%;
   }
 }
+.form-group .orange {
+  color: #e87722;
+}
 
 span.input-group-addon {
   position: absolute;
