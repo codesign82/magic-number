@@ -14,7 +14,7 @@ jQuery(()=>{
 
 //endregion define variables
   nextToGrowth.addEventListener('click',function (){
-    window.open(`https://valueandgrowthcalculator.com/?mn=${magic.value.replace(/,/g,'')}`, '_blank');
+    window.open(`https://codesign82.com/valueandgrowthcalculator/?mn=${magic.value.replace(/,/g,'')}`, '_blank');
   })
 
 //region fix container
