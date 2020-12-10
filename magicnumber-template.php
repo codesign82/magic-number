@@ -210,6 +210,9 @@ $ba_youtube_link = get_field('ba_youtube_link');
     
                     </form>
                   </div>
+                  <div class="text-new">
+                    Go to the Growth and Value Calculator to find out what it will take your business to yield you your Magic Number.
+                  </div>
                   <div class="buttons">
                     <a class="btn btn-small prev-ques" href="#">Back</a>
                     <a onclick="window.print()" class="btn btn-medium next-ques" href="#">Print</a>

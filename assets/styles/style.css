@@ -851,6 +851,19 @@ span.input-group-addon {
   }
 }
 
+.text-new {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+input#M10 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
 :root {
   /* Colors: */
   --orage-color: #e87722;
