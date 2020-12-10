@@ -1260,6 +1260,9 @@ form, input {
       max-width: 100%;
     }
   }
+  .text-new {
+    display: none;
+  }
 }
 .btn {
   cursor: pointer;
