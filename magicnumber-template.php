@@ -302,7 +302,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
       </div>
     </footer>
     <?php wp_footer(); ?>
-    <script src="http://www.decorplanit.com/plugin/autoNumeric-1.9.45.js" ></script>
+    <script src="<?=plugin_dir_url(__FILE__) . '/assets/js/autonumeric.js'?>"></script>
     <script src="<?=plugin_dir_url(__FILE__) . '/assets/js/scripts.js'?>"></script>
     <script>
       jQuery(document).ready(function($) {
