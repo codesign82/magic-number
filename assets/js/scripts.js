@@ -39,6 +39,7 @@ jQuery(()=>{
     window.sendToEmail = esoEmail.value;
     step1.classList.remove('active');
     step1.nextElementSibling.classList.add('active');
+    jQuery('html, body').animate({scrollTop: 0}, 'slow');
   }, false);
   
   prev2.addEventListener('click',function (){
