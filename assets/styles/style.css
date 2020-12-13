@@ -832,7 +832,7 @@ span.input-group-addon {
   left: auto;
 }
 .M7_per_container input {
-  text-align: center;
+  text-align: center !important;
 }
 
 .M7_wrapper {
