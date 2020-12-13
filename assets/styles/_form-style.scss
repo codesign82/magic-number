@@ -842,6 +842,13 @@ input#M7_per{
     margin-right: 0;
     margin-bottom: size(18);
   }
+  span.input-group-addon{
+    right: 1.5rem;
+    left: auto;
+  }
+  input{
+    text-align: center;
+  }
 }
 .M7_wrapper {
   display: flex;

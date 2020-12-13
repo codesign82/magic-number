@@ -827,6 +827,13 @@ span.input-group-addon {
     margin-bottom: 1.8rem;
   }
 }
+.M7_per_container span.input-group-addon {
+  right: 1.5rem;
+  left: auto;
+}
+.M7_per_container input {
+  text-align: center;
+}
 
 .M7_wrapper {
   display: flex;

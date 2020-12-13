@@ -162,7 +162,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                         <div class="M7_wrapper">
                         <div class=" M7_per_container" >
                           <div class="input-group" id="M7_per_container">
-<!--                            <span class="input-group-addon"><i class="fa fa-percent">%</i></span>-->
+                            <span class="input-group-addon"><i class="fa fa-percent">x</i></span>
                             <input style="display: block !important;" style="text-align: center" class="form-control magic_number_class"  type="text" step="0.10" id="M7_per" name="M7_per" value="25" placeholder="" />
                           </div><!-- input group -->
                         </div><!-- col-md-1 -->
