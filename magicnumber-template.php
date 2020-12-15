@@ -158,7 +158,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
                       </div><!-- form-group -->
       
                       <div class="form-group">
-                        <label class="label-control">Retirement Nest-egg multiplier</label>
+                        <label class="label-control">Retirement Nest-egg multiplier <span style="white-space: nowrap">(# of years of retired life)</span></label>
                         <div class="M7_wrapper">
                         <div class=" M7_per_container" >
                           <div class="input-group" id="M7_per_container">
