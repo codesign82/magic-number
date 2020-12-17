@@ -178,6 +178,7 @@ body {
     font-size: size(18);
     font-weight: 400;
     line-height: size(20);
+    text-align: center;
     @include min-small-screen {
       font-size: size(20);
     }
