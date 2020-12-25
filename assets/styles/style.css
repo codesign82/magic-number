@@ -809,6 +809,7 @@ span.input-group-addon {
 
 #M6, #M7, #M10 {
   background: #ffe8da;
+  color: #000;
 }
 
 @media screen and (min-width: 900px) {
