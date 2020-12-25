@@ -1,4 +1,4 @@
-jQuery(()=>{
+jQuery(document).ready(function ($) {
 
 //region define variables
   const esoEmail = document.querySelector('.eso-email');
@@ -80,4 +80,4 @@ jQuery(()=>{
         aSep: ',', mDec: '0', vMax: '99999999999999999999999999', nBracket: "(,)"
       },
     );
-})
+});
