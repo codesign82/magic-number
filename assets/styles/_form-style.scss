@@ -803,6 +803,9 @@ p.paragraph.text.email {
     background-color: #f0efeb;
     font-size: size(18);
     text-align: right;
+    &.negative{
+      padding-right: 0.7em;
+    }
     @include max-medium-screen{
       width: 32.3rem;
     }

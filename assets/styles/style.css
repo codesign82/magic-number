@@ -777,6 +777,9 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   font-size: 1.8rem;
   text-align: right;
 }
+.form-group .magic_number_class.negative {
+  padding-right: 0.7em;
+}
 @media screen and (max-width: 991.98px) {
   .form-group .magic_number_class {
     width: 32.3rem;

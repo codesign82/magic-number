@@ -64,8 +64,20 @@ jQuery(()=>{
   // }, false);
 //endregion Initializing step 2
   
+  //
+  // jQuery(':input[type="text"]').autoNumeric(
+  //   'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
+  // );
   
-  jQuery(':input[type="text"]').autoNumeric(
-    'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
-  );
+  jQuery('input[type="text"]:not(.form-info-exclude)')
+    .on('change', function () {
+      const $this = $(this);
+      console.log($this.autoNumeric('get'));
+      $this.toggleClass('negative', $this.autoNumeric('get') < 0);
+    })
+    .autoNumeric(
+      'init', {
+        aSep: ',', mDec: '0', vMax: '99999999999999999999999999', nBracket: "(,)"
+      },
+    );
 })
