@@ -7,6 +7,7 @@
 }
 .page-wrapper {
   background: #b3b3b3;
+  font-family: "Roboto";
 }
 .page-wrapper .phases {
   display: flex;
@@ -1039,6 +1040,7 @@ body .small-paragraph {
 body label {
   color: var(--black-color);
   font-family: "Roboto";
+  display: block;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2rem;
@@ -1302,6 +1304,18 @@ form, input {
     font-size: 2.2rem;
     line-height: 2.5rem;
   }
+}
+
+input[type=text], input[type=email], input[type=url], input[type=password], input[type=search], input[type=number], input[type=tel], input[type=range], input[type=date], input[type=month], input[type=week], input[type=time], input[type=datetime], input[type=datetime-local], input[type=color], textarea {
+  color: #666;
+  background: #fff;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  border: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  padding: 0.7em;
+  width: 100%;
 }
 
 header {

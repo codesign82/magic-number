@@ -175,6 +175,7 @@ body {
   label {
     color: $black-color;
     font-family: $Roboto;
+    display: block;
     font-size: size(18);
     font-weight: 400;
     line-height: size(20);
@@ -475,4 +476,15 @@ form, input {
     font-size: size(22);
     line-height: size(25);
   }
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+  color: #666;
+  background: #fff;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  border: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  padding: 0.7em;
+  width: 100%;
 }
