@@ -41,7 +41,7 @@ $ba_youtube_link = get_field('ba_youtube_link');
         <div class="business-buyAbility wysiwyg-block">
           <?=get_field('ba_welcome_text')?>
         </div>
-        <?php echo do_shortcode('[contact-form-7 id="1296" title="Magic Number Contact Form"]'); ?>
+        <?php echo do_shortcode(get_field('contact_form')); ?>
       </div>
     </section>
     <section class="step-wrapper">
