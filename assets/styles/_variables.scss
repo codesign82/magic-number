@@ -5,7 +5,6 @@ $small-screen-max-width: 767.98px;
 $medium-screen-max-width: 991.98px;
 $large-screen-max-width: 1023.98px;
 
-
 $x-small-screen-min-width: 400px;
 $small-screen-min-width: 576px;
 $medium-screen-min-width: 768px;
@@ -13,7 +12,7 @@ $large-screen-min-width: 900px;
 $x-large-screen-min-width: 1024px;
 
 // color
-$orange-color: var(--orage-color);
+$orange-color: #c32729;
 $white-color: var(--white-color);
 $black-color: var(--black-color);
 $gray-color: var(--gray-color);
@@ -22,9 +21,9 @@ $light-gray-color: var(--ligth-gray-color);
 $semi-gray-color: var(--semi-gray-color);
 
 
-
 // fonts
 $Roboto: 'Roboto';
+$Bison: "Bison Bold";
 
 //override bootstrap variables
 //$grid-gutter-width: 76px;

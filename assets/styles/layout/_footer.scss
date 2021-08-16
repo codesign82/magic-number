@@ -1,5 +1,5 @@
 footer {
-    background: $gray-color;
+    background: $black-color;
     @include paddingY(size(40));
     @include x-large-screen{
         @include paddingY(size(31), size(46));

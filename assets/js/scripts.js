@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(()=>{
 
 //region define variables
   const esoEmail = document.querySelector('.eso-email');
@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
 
 //endregion define variables
   nextToGrowth.addEventListener('click',function (){
-    window.open(`https://valueandgrowthcalculator.com/?mn=${magic.value.replace(/,/g,'')}`, '_blank');
+    window.open(`https://codesign82.com/valueandgrowthcalculator/?mn=${magic.value.replace(/,/g,'')}`, '_blank');
   })
 
 //region fix container
@@ -64,20 +64,8 @@ jQuery(document).ready(function ($) {
   // }, false);
 //endregion Initializing step 2
   
-  //
-  // jQuery(':input[type="text"]').autoNumeric(
-  //   'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
-  // );
   
-  jQuery('input[type="text"]:not(.form-info-exclude)')
-    .on('change', function () {
-      const $this = $(this);
-      console.log($this.autoNumeric('get'));
-      $this.toggleClass('negative', $this.autoNumeric('get') < 0);
-    })
-    .autoNumeric(
-      'init', {
-        aSep: ',', mDec: '0', vMax: '99999999999999999999999999', nBracket: "(,)"
-      },
-    );
-});
+  jQuery(':input[type="text"]').autoNumeric(
+    'init', {aSep: ',', mDec: '0', vMax: '99999999999999999999999999'}
+  );
+})

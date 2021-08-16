@@ -1,11 +1,11 @@
 :root {
   /* Colors: */
-  --orage-color: #e87722;
+  --orage-color: #c32729;
   --white-color: #ffffff;
-  --black-color: #000000;
-  --gray-color: #333333;
-  --dark-gray-color: #999999;
-  --ligth-gray-color: #b3b3b3;
+  --black-color: #333333;
+  --gray-color: #f0efeb;
+  --dark-gray-color: #838181;
+  --ligth-gray-color: #a1a19f;
   --semi-gray-color: #f0efeb;
 }
 
@@ -107,7 +107,7 @@ body {
   
   .headline-1 {
     color: $orange-color;
-    font-family: $Roboto;
+    font-family: $Bison;
     font-weight: 400;
     line-height: normal;
     font-size: size(28);
@@ -121,7 +121,7 @@ body {
   
   .headline-2 {
     color: $orange-color;
-    font-family: $Roboto;
+    font-family: $Bison;
     font-size: size(18);
     font-weight: 400;
     line-height: normal;
@@ -135,7 +135,7 @@ body {
   
   .headline-3 {
     color: $gray-color;
-    font-family: $Roboto;
+    font-family: $Bison;
     font-size: size(13);
     font-weight: 700;
     line-height: normal;
@@ -173,7 +173,7 @@ body {
   }
   
   label {
-    color: $gray-color;
+    color: $black-color;
     font-family: $Roboto;
     font-size: size(18);
     font-weight: 400;

@@ -1,5 +1,10 @@
 @import "bootstrap-grid.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@font-face {
+  font-family: "Bison Bold";
+  src: url(./Bison-Bold.ttf);
+  font-weight: 700;
+}
 .page-wrapper {
   background: #b3b3b3;
 }
@@ -25,7 +30,7 @@
   justify-content: center;
   border-radius: 11px;
   cursor: pointer;
-  background-color: #ffe8da;
+  background-color: #f3d3d4;
   font-size: 2rem;
   flex-basis: 25%;
   min-height: 8rem;
@@ -53,7 +58,7 @@
   left: 0;
   width: calc(100% - 0.1rem);
   height: 1.1rem;
-  background-color: var(--orage-color);
+  background-color: #c32729;
   border-top-right-radius: 11px;
   opacity: 0;
 }
@@ -78,7 +83,7 @@
   border-radius: 11px 11px 0 0;
   font-weight: 700;
   background: var(--white-color);
-  color: var(--orage-color);
+  color: #c32729;
   margin-bottom: -0.1rem;
 }
 .page-wrapper .phases .number.active:first-child {
@@ -112,7 +117,7 @@
   left: -0.1rem;
   width: 100%;
   height: 100%;
-  background-color: var(--orage-color);
+  background-color: #c32729;
   border-bottom-right-radius: 11px;
 }
 @media screen and (min-width: 1024px) {
@@ -319,7 +324,7 @@
   content: "";
   width: 1.1rem;
   height: 1.1rem;
-  background: var(--orage-color);
+  background: #c32729;
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
@@ -544,11 +549,11 @@
   }
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .circle.active {
-  background: var(--orage-color);
+  background: #c32729;
   color: var(--white-color);
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .circle.active + .fill {
-  background: var(--orage-color);
+  background: #c32729;
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .evaluation .evaluation-number .fill {
   width: 2rem;
@@ -657,7 +662,7 @@
 }
 .page-wrapper .step-wrapper .phases-and-steps .steps .step.secondStep .question-and-evaluation .sp-circle {
   border: 4px var(--white-color) solid;
-  border-top: 4px var(--orage-color) solid;
+  border-top: 4px #c32729 solid;
   border-radius: 50%;
   -webkit-animation: spCircRot 0.6s infinite linear;
   animation: spCircRot 0.6s infinite linear;
@@ -727,7 +732,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--orage-color);
+  background-color: #c32729;
   border-radius: 5px;
   transition: width 400ms;
 }
@@ -777,9 +782,6 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   font-size: 1.8rem;
   text-align: right;
 }
-.form-group .magic_number_class.negative {
-  padding-right: 0.7em;
-}
 @media screen and (max-width: 991.98px) {
   .form-group .magic_number_class {
     width: 32.3rem;
@@ -791,7 +793,7 @@ p.paragraph.text.email, body .wysiwyg-block p.text.email {
   }
 }
 .form-group .orange {
-  color: #e87722;
+  color: #c32729;
 }
 
 span.input-group-addon {
@@ -811,8 +813,7 @@ span.input-group-addon {
 }
 
 #M6, #M7, #M10 {
-  background: #ffe8da;
-  color: #000;
+  background: #f3d3d4;
 }
 
 @media screen and (min-width: 900px) {
@@ -875,12 +876,12 @@ input#M10 {
 
 :root {
   /* Colors: */
-  --orage-color: #e87722;
+  --orage-color: #c32729;
   --white-color: #ffffff;
-  --black-color: #000000;
-  --gray-color: #333333;
-  --dark-gray-color: #999999;
-  --ligth-gray-color: #b3b3b3;
+  --black-color: #333333;
+  --gray-color: #f0efeb;
+  --dark-gray-color: #838181;
+  --ligth-gray-color: #a1a19f;
   --semi-gray-color: #f0efeb;
 }
 
@@ -956,8 +957,8 @@ body .center {
   text-align: center;
 }
 body .headline-1, body .wysiwyg-block h1 {
-  color: var(--orage-color);
-  font-family: "Roboto";
+  color: #c32729;
+  font-family: "Bison Bold";
   font-weight: 400;
   line-height: normal;
   font-size: 2.8rem;
@@ -973,8 +974,8 @@ body .headline-1, body .wysiwyg-block h1 {
   }
 }
 body .headline-2, body .wysiwyg-block h2 {
-  color: var(--orage-color);
-  font-family: "Roboto";
+  color: #c32729;
+  font-family: "Bison Bold";
   font-size: 1.8rem;
   font-weight: 400;
   line-height: normal;
@@ -991,7 +992,7 @@ body .headline-2, body .wysiwyg-block h2 {
 }
 body .headline-3, body .wysiwyg-block h3 {
   color: var(--gray-color);
-  font-family: "Roboto";
+  font-family: "Bison Bold";
   font-size: 1.3rem;
   font-weight: 700;
   line-height: normal;
@@ -1036,7 +1037,7 @@ body .small-paragraph {
   }
 }
 body label {
-  color: var(--gray-color);
+  color: var(--black-color);
   font-family: "Roboto";
   font-size: 1.8rem;
   font-weight: 400;
@@ -1109,14 +1110,14 @@ body .btn:hover:before {
 }
 body .btn.btn-big {
   min-width: 25.1rem;
-  background: var(--orage-color);
+  background: #c32729;
 }
 body .btn.btn-big:before {
   background: var(--ligth-gray-color);
 }
 body .btn.btn-medium {
   min-width: 21.7rem;
-  background: var(--orage-color);
+  background: #c32729;
 }
 body .btn.btn-medium:before {
   background: var(--ligth-gray-color);
@@ -1131,7 +1132,7 @@ body .btn.btn-small {
   }
 }
 body .btn.btn-small:before {
-  background: var(--orage-color);
+  background: #c32729;
 }
 @media screen and (max-width: 767.98px) {
   body .btn svg {
@@ -1475,7 +1476,7 @@ header .header-content .links .small-link:hover:before {
 }
 
 footer {
-  background: var(--gray-color);
+  background: var(--black-color);
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -1589,7 +1590,7 @@ footer .links a, footer .links p {
   }
 }
 footer .links a:hover, footer .links p:hover {
-  color: var(--orage-color);
+  color: #c32729;
 }
 
 .wpcf7 form .wpcf7-response-output {

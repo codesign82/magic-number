@@ -22,7 +22,7 @@
       justify-content: center;
       border-radius: 11px;
       cursor: pointer;
-      background-color: #ffe8da;
+      background-color: #f3d3d4;
       font-size: size(20);
       flex-basis: 25%;
       min-height: size(80);
@@ -803,9 +803,6 @@ p.paragraph.text.email {
     background-color: #f0efeb;
     font-size: size(18);
     text-align: right;
-    &.negative{
-      padding-right: 0.7em;
-    }
     @include max-medium-screen{
       width: 32.3rem;
     }
@@ -814,7 +811,7 @@ p.paragraph.text.email {
     }
   }
   .orange{
-    color: #e87722;
+    color: #c32729;
   }
 }
 span.input-group-addon {
@@ -830,8 +827,7 @@ span.input-group-addon {
   align-items: center;
 }
 #M6,#M7,#M10{
-  background: #ffe8da;
-  color: #000;
+  background: #f3d3d4;
 }
 input#M7_per{
   @include min-large-screen {
