@@ -1008,7 +1008,7 @@ body .headline-3, body .wysiwyg-block h3 {
   }
 }
 body .paragraph, body .wysiwyg-block p {
-  color: var(--gray-color);
+  color: var(--black-color);
   font-family: "Roboto";
   font-size: 1.4rem;
   font-weight: 500;
